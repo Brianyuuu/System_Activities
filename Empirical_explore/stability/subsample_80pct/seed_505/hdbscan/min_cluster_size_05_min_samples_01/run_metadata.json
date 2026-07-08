@@ -1,0 +1,14 @@
+{
+  "test_type": "subsample_80pct",
+  "test_run": "seed_505",
+  "method": "hdbscan",
+  "run_name": "min_cluster_size_05_min_samples_01",
+  "params": {
+    "min_cluster_size": 5,
+    "min_samples": 1
+  },
+  "random_seed": 505,
+  "n_rows": 418,
+  "n_clusters_excluding_noise": 3,
+  "n_noise_rows": 26
+}

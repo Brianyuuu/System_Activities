@@ -1,0 +1,13 @@
+{
+  "test_type": "leave_tesla_out",
+  "test_run": "exclude_TSLA",
+  "method": "kmeans",
+  "run_name": "k_200",
+  "params": {
+    "k": 200
+  },
+  "random_seed": 42,
+  "n_rows": 298,
+  "n_clusters_excluding_noise": 200,
+  "n_noise_rows": 0
+}

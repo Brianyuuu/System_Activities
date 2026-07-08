@@ -1,0 +1,13 @@
+{
+  "test_type": "subsample_80pct",
+  "test_run": "seed_202",
+  "method": "kmeans",
+  "run_name": "k_020",
+  "params": {
+    "k": 20
+  },
+  "random_seed": 202,
+  "n_rows": 418,
+  "n_clusters_excluding_noise": 20,
+  "n_noise_rows": 0
+}

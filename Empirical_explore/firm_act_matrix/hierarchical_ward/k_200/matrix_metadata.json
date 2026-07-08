@@ -1,0 +1,14 @@
+{
+  "method": "hierarchical_ward",
+  "run_name": "k_200",
+  "source_assignments": "/Users/brian/Dropbox/Wharton/SystemAct/Empirical_explore/clustering/hierarchical_ward/k_200/assignments.csv",
+  "n_firm_years": 4,
+  "n_activity_rows": 522,
+  "n_non_noise_activity_rows": 522,
+  "n_noise_activity_rows": 0,
+  "n_activity_clusters": 200,
+  "matrix_rows": 4,
+  "matrix_cluster_columns": 200,
+  "weighted_share_definition": "count_ij / sum_j count_ij over non-noise clusters for firm-year i",
+  "weighted_tfidf_definition": "count_ij * (log((1+n_firmyears)/(1+df_j)) + 1)"
+}

@@ -1,0 +1,41 @@
+# Activity System Taxonomy Clustering Review
+
+## Recommended clustering folder
+
+The best current folder is:
+
+`/Users/brian/Dropbox/Wharton/SystemAct/Empirical_explore/clustering/bertopic/default_min_topic_size_05`
+
+BERTopic gives the most useful exploratory taxonomy among the available runs. It produces 51 non-noise clusters from 522 activity phrases, with only 60 phrases left as noise. The cluster-size distribution is healthy for this pilot: the largest cluster has only 20 phrases, so the model is not collapsing broad swaths of firm activity into a single generic topic. The average within-cluster pairwise cosine is also comparable to or better than the main 50-cluster alternatives. Hierarchical Ward at k=50 is the closest runner-up and should be kept as a robustness check, but BERTopic has a slight interpretability advantage because it naturally isolates a noise bucket and produces crisp, named clusters without forcing every phrase into a topic.
+
+HDBSCAN does not work well in the current setup. With small min-samples it collapses almost everything into a giant cluster, and with larger min-samples it puts too much of the corpus into noise. K-means and Ward are much better, especially k=50, but k=20 is too coarse and k=100 or k=200 often becomes overly atomized. The k=50 solutions are interpretable, but BERTopic preserves roughly the same useful granularity while separating weak or miscellaneous phrases.
+
+## Porter value-chain sanity check
+
+BERTopic does recover recognizable value-chain categories, even though the algorithm was not told about Porter categories. Manufacturing and operations appear clearly. Tesla battery pack production is isolated in C003, Tesla energy product assembly and Gigafactory/cell capacity appear in C030 and C040, Ford vehicle manufacturing appears in C027, and production/delivery of Tesla/Ford vehicle models appears in C007 and C017. These are not just firm labels; they are activity categories around production, assembly, capacity, and supplier inputs.
+
+Marketing and sales also emerge. C009 captures selling vehicles through sales and service networks, C050 captures brand strengthening, C037 captures Southwest's Transfarency advertising campaign, C029 captures fee and reservation policies such as no checked bag or flight-change fees, and C044 captures reasons to fly Southwest such as low fares, customer service, free live television, and Rapid Rewards. Ford dealer finance appears as C023, which is a sales-channel-adjacent financial activity. Airline marketing and network partnerships also show up in Delta's SkyTeam/alliance cluster C025 and Delta's Aeromexico/GOL investment cluster C018.
+
+R&D and product development appear, though they are more domain-specific than generic. Tesla electric vehicle design and development is C016, Tesla software and vehicle control/infotainment work is C035, autopilot and performance improvements are C021, and battery/cell optimization is partly in C003. Airline operational technology appears in C020, which captures required navigation performance and FAA-related route/air-traffic-control work. These are coherent, but R&D is not one large general cross-industry cluster; it appears as several technology-specific clusters, which is plausible for a small four-firm sample.
+
+Distribution, networks, and delivery are also present. Airline route and destination activity appears in C005 and C024. Aircraft fleet delivery/replacement appears in C010. Tesla's direct distribution infrastructure appears through sales/service centers in C002, retail galleries in C039, and Supercharger stations in C038. Customer service appears most clearly in C002 and C011, which combine service centers, extended service plans, and customer-facing support. This is slightly blended with sales and retail, but that blending is substantively meaningful for Tesla because its activity system intentionally combines direct sales, service, and charging infrastructure.
+
+## Industry-spanning versus industry-specific clusters
+
+The taxonomy contains both kinds of clusters, which is exactly what the guideline asks for. Some clusters are industry-spanning general activities. C002 spans all four firms and groups service centers, sales/service networks, and retail/service locations. C011 spans all four firms and captures extended service plans. C032 spans all four firms around collective bargaining and employment agreements. C014 is a less useful all-firm SEC/reporting artifact, but its presence is understandable because 10-K text includes disclosure activities.
+
+Other clusters are industry-spanning within an industry. Automotive activity appears across Ford and Tesla in vehicle sales, vehicle production, suppliers, dealer/customer financing, and product delivery. Airline activity appears across Delta and Southwest in route networks, aircraft/fleet management, reservation systems, customer-facing fare/service policies, FAA/RNP operations, and fuel hedging or procurement.
+
+The taxonomy also recovers firm- or domain-specific clusters. Tesla-specific clusters include battery packs, energy storage products, Gigafactory/cell capacity, Supercharger networks, retail galleries, zero-emission credits, and direct service centers. Ford-specific clusters include dealer financing and manufacturing a full Ford/Lincoln vehicle line. Southwest-specific clusters include Amadeus reservation implementation, no-fee policies, the Transfarency campaign, and point-to-point/low-fare customer propositions. Delta-specific clusters include SkyTeam alliances, Aeromexico/GOL investments, refinery/fuel exchange activities, regional carrier arrangements, and MRO/private jet/vacation-adjacent airline businesses.
+
+## Fit with the cases
+
+The discovered activities match the known case logic well. Tesla is represented as a vertically integrated electric vehicle and energy company: it designs and develops EVs, manufactures battery packs, builds Gigafactory capacity, sells directly through sales/service centers, opens galleries, builds Supercharger stations, and uses software/autopilot as part of the product system. That is broadly the Tesla activity system we would expect from a 2015-era 10-K.
+
+Ford appears as the incumbent full-line automaker with manufacturing, dealer-based sales, Ford Credit/dealer financing, supplier/raw-material management, warranties and service campaigns, and a broad Ford/Lincoln product line. The clustering differentiates Ford from Tesla in useful ways: both are automotive, but Tesla's clusters are direct-channel, battery, software, charging, and energy heavy, while Ford's distinctive clusters are dealer finance, traditional product line manufacturing, and dealer/channel activities.
+
+Southwest is picked up as a low-fare, customer-service-oriented airline with a point-to-point route structure, no-fee policies, rapid rewards/customer value propositions, fleet simplification around Boeing aircraft, and reservation-system modernization through Amadeus. The clusters also reflect operational/regulatory infrastructure such as FAA/RNP and international expansion requirements. These activities line up with the Southwest case emphasis on operating model, customer promise, and operational discipline.
+
+Delta appears as the network carrier: hub and gateway operations, regional carrier arrangements, SkyTeam/global alliances, Aeromexico/GOL partnerships, fuel hedging/procurement and refinery-related activities, MRO/private jet/vacation businesses, and aircraft/fleet management. That is a sensible contrast with Southwest: the algorithm recovers network/alliance complexity for Delta and low-fare/customer-facing operational simplicity for Southwest.
+
+Overall, the BERTopic folder passes the sanity check. It recovers obvious value-chain categories, includes both general and domain-specific activities, and the firm-level activity patterns are consistent with the Tesla, Ford, Southwest, and Delta cases. The main caveat is that some clusters reflect artifacts of 10-K disclosure rather than operating activities, especially SEC reporting, legal compliance, and collective bargaining. The next iteration should either filter these before clustering or tag them as "administrative/disclosure" rather than treating them as core activity-system categories.

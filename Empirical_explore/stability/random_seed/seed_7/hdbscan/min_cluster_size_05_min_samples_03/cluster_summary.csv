@@ -1,0 +1,4 @@
+cluster_id,cluster_label_numeric,is_noise,top_terms,cluster_size,n_firms,firms,mean_within_cluster_pairwise_cosine,representative_phrase_1
+C001,0,False,"vehicle, model, sell, product, aircraft, offer, energy, battery, airline, sale",463,4,DAL|F|LUV|TSLA,0.19366392493247986,designing manufacturing marketing financing service line ford car truck suvs electrified vehicle lincoln luxury vehicle
+C002,1,False,"report, furnish, information, furnish information, furnish information sec, sec, information sec, amendment, publicly, report form",5,3,DAL|LUV|TSLA,0.4304758608341217,furnish information with sec
+NOISE,-1,True,noise / unclustered,54,4,DAL|F|LUV|TSLA,0.08770731836557388,subject to federal state local law regulation relate to occupational safety health include occupational safety health administration food drug administration regulation

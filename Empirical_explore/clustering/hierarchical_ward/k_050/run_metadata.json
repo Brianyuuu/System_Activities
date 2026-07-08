@@ -1,0 +1,20 @@
+{
+  "method": "hierarchical_ward",
+  "run_name": "k_050",
+  "params": {
+    "k": 50,
+    "linkage": "ward",
+    "metric": "euclidean"
+  },
+  "input": "/Users/brian/Dropbox/Wharton/SystemAct/Empirical_explore/phrases/clean_normalize/actor_identification/activities_medium_actor_firm_only_deduplicated.csv",
+  "n_input_rows": 522,
+  "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+  "n_rows": 522,
+  "n_clusters_excluding_noise": 50,
+  "n_noise_rows": 0,
+  "silhouette_cosine_excluding_noise": 0.1296682506799698,
+  "calinski_harabasz_excluding_noise": 6.091188224506571,
+  "davies_bouldin_excluding_noise": 2.3567805885828945,
+  "min_cluster_size_observed_excluding_noise": 3,
+  "max_cluster_size_observed_excluding_noise": 27
+}

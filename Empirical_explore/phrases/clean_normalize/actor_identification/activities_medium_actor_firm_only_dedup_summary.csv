@@ -1,0 +1,10 @@
+metric,value
+input_firm_only_rows,591
+output_retained_rows,522
+dropped_duplicate_rows,69
+final_dedup_groups_total,522
+final_dedup_groups_size_gt_1,67
+exact_duplicate_groups_before,2
+exact_duplicate_groups_after,0
+deepseek_duplicate_pairs_before,69
+deepseek_duplicate_pairs_after,0

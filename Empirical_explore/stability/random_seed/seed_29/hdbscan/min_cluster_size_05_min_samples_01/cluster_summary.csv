@@ -1,0 +1,4 @@
+cluster_id,cluster_label_numeric,is_noise,top_terms,cluster_size,n_firms,firms,mean_within_cluster_pairwise_cosine,representative_phrase_1
+C001,0,False,"vehicle, model, sell, product, aircraft, offer, program, energy, airline, battery",497,4,DAL|F|LUV|TSLA,0.18241792917251587,designing manufacturing marketing financing service line ford car truck suvs electrified vehicle lincoln luxury vehicle
+C002,1,False,"report, sec, furnish, file sec, file, information, furnish information sec, information sec, furnish information, report europe",8,4,DAL|F|LUV|TSLA,0.3644139766693115,furnish information with sec
+NOISE,-1,True,noise / unclustered,17,4,DAL|F|LUV|TSLA,0.07259116321802139,offer message only option

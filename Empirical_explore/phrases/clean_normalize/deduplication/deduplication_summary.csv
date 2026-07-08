@@ -1,0 +1,6 @@
+metric,value
+input_rows,899
+retained_rows,794
+dropped_rows,105
+duplicate_groups,91
+embedding_model,sentence-transformers/all-mpnet-base-v2

@@ -1,0 +1,20 @@
+{
+  "method": "kmeans",
+  "run_name": "k_020",
+  "params": {
+    "k": 20,
+    "n_init": 50,
+    "random_state": 42
+  },
+  "input": "/Users/brian/Dropbox/Wharton/SystemAct/Empirical_explore/phrases/clean_normalize/actor_identification/activities_medium_actor_firm_only_deduplicated.csv",
+  "n_input_rows": 522,
+  "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+  "n_rows": 522,
+  "n_clusters_excluding_noise": 20,
+  "n_noise_rows": 0,
+  "silhouette_cosine_excluding_noise": 0.07978039979934692,
+  "calinski_harabasz_excluding_noise": 8.491938354532952,
+  "davies_bouldin_excluding_noise": 3.1400715343869754,
+  "min_cluster_size_observed_excluding_noise": 6,
+  "max_cluster_size_observed_excluding_noise": 45
+}

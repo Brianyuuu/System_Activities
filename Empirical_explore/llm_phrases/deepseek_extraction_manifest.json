@@ -1,0 +1,85 @@
+{
+  "base_url": "https://api.deepseek.com",
+  "chunk_chars": 12000,
+  "companies": [
+    {
+      "accepted_activities": {
+        "loose": 133,
+        "medium": 100,
+        "strict": 32
+      },
+      "chunk_count": 4,
+      "company": "Delta Air Lines, Inc.",
+      "item1_words": 6376,
+      "rejected_activities": {
+        "loose": 23,
+        "medium": 21,
+        "strict": 17
+      },
+      "sentence_count": 227
+    },
+    {
+      "accepted_activities": {
+        "loose": 84,
+        "medium": 68,
+        "strict": 32
+      },
+      "chunk_count": 5,
+      "company": "Ford Motor Company",
+      "item1_words": 7361,
+      "rejected_activities": {
+        "loose": 13,
+        "medium": 13,
+        "strict": 28
+      },
+      "sentence_count": 292
+    },
+    {
+      "accepted_activities": {
+        "loose": 176,
+        "medium": 136,
+        "strict": 45
+      },
+      "chunk_count": 7,
+      "company": "Southwest Airlines Co.",
+      "item1_words": 10712,
+      "rejected_activities": {
+        "loose": 34,
+        "medium": 38,
+        "strict": 31
+      },
+      "sentence_count": 341
+    },
+    {
+      "accepted_activities": {
+        "loose": 257,
+        "medium": 212,
+        "strict": 79
+      },
+      "chunk_count": 5,
+      "company": "Tesla Motors, Inc.",
+      "item1_words": 7240,
+      "rejected_activities": {
+        "loose": 33,
+        "medium": 35,
+        "strict": 39
+      },
+      "sentence_count": 281
+    }
+  ],
+  "created_at_utc": "2026-07-05T20:28:34.368596+00:00",
+  "credential_source": "DEEPSEEK_API_KEY environment variable",
+  "json_instruction": "Return one JSON object with exactly this structure:\n{\"activities\": [{\"activity_phrase\": \"...\", \"source_sentence\": \"...\"}]}\n`source_sentence` must be copied character-for-character from the input chunk and must be one complete sentence. Do not add fields or commentary.\n\nINPUT CHUNK:\n",
+  "model": "deepseek-v4-pro",
+  "prompt": "Read the following 10-K Item 1 business description. Extract every distinct operational activity the firm explicitly describes itself as performing. Be specific: ‘manufactures cars’ is better than ‘manufactures.’ Do not infer activities not described. Do not use outside knowledge. Only extract what is stated. For each activity, return the exact source sentence that supports it. If no explicit operational activity appears, return an empty list.",
+  "sensitivity_instructions": {
+    "loose": "LOOSE SENSITIVITY: Use the medium rules and broaden recall further. Include borderline but textually explicit operating practices, organizational and coordination choices, selling and pricing practices, investment or expansion actions, and explicitly stated planned or continuing activities. Retain an item only when the source sentence itself states the action; never infer from firm identity, industry knowledge, resources, outcomes, or common sense.",
+    "medium": "MEDIUM SENSITIVITY: Increase recall while remaining grounded in the text. Include operational activities stated through coordinated verbs or objects, passive voice, prepositional constructions, and longer noun phrases. Preserve strategically meaningful modifiers such as in-house versus outsourced, direct versus intermediated, channel, mode, scope, exclusivity, timing, and customer segment. Include value creation, delivery, coordination, and value-capture activities. Exclude resources, capabilities, outcomes, risks, and aspirations that do not state an activity the firm performs.",
+    "strict": ""
+  },
+  "total_accepted_activities": {
+    "loose": 650,
+    "medium": 516,
+    "strict": 188
+  }
+}

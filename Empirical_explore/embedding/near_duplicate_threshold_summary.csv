@@ -1,0 +1,6 @@
+threshold,near_duplicate_pairs_all,near_duplicate_pairs_same_ticker,near_duplicate_pairs_cross_ticker,near_duplicate_groups_all,near_duplicate_groups_same_ticker_only,near_duplicate_groups_cross_ticker,rows_in_near_duplicate_groups
+0.8,90,84,6,55,51,4,120
+0.82,67,61,6,43,38,5,101
+0.85,42,38,4,32,29,3,71
+0.88,25,23,2,24,22,2,49
+0.9,15,14,1,15,14,1,30

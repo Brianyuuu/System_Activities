@@ -1,0 +1,17 @@
+{
+  "test_type": "subsample_80pct",
+  "test_run": "seed_303",
+  "method": "bertopic",
+  "run_name": "default_min_topic_size_05",
+  "params": {
+    "min_topic_size": 5,
+    "umap_n_neighbors": 15,
+    "umap_n_components": 10,
+    "hdbscan_min_cluster_size": 5,
+    "hdbscan_min_samples": 1
+  },
+  "random_seed": 303,
+  "n_rows": 418,
+  "n_clusters_excluding_noise": 36,
+  "n_noise_rows": 35
+}

@@ -1,0 +1,8 @@
+metric,value
+deduplicated_input_rows,794
+deepseek_candidate_pairs,163
+deepseek_duplicate_pairs,77
+deepseek_duplicate_groups,75
+actor_rows,794
+firm_actor_rows,591
+model,deepseek-chat

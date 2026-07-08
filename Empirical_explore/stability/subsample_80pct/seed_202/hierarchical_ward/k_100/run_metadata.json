@@ -1,0 +1,13 @@
+{
+  "test_type": "subsample_80pct",
+  "test_run": "seed_202",
+  "method": "hierarchical_ward",
+  "run_name": "k_100",
+  "params": {
+    "k": 100
+  },
+  "random_seed": 202,
+  "n_rows": 418,
+  "n_clusters_excluding_noise": 100,
+  "n_noise_rows": 0
+}

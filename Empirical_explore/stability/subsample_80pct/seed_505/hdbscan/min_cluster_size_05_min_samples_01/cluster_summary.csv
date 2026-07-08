@@ -1,0 +1,5 @@
+cluster_id,cluster_label_numeric,is_noise,top_terms,cluster_size,n_firms,firms,mean_within_cluster_pairwise_cosine,representative_phrase_1
+C001,0,False,"vehicle, model, sell, product, aircraft, offer, energy, reservation, battery, operate",379,4,DAL|F|LUV|TSLA,0.18840502202510834,designing manufacturing marketing financing service line ford car truck suvs electrified vehicle lincoln luxury vehicle
+C002,1,False,"report, sec, furnish, file sec, file, information, information sec, furnish information, furnish information sec, report europe",7,4,DAL|F|LUV|TSLA,0.3678187429904938,furnish information with sec
+C003,2,False,"agreement, bargaining, bargaining agreement, collective, collective bargaining, collective bargaining agreement, satisfy, satisfy condition, condition agreement, satisfy condition agreement",6,4,DAL|F|LUV|TSLA,0.4977090060710907,enter into collective bargaining agreement cover wage benefit and/or employment provision with union in argentina brazil france germany india mexico new zealand romania taiwan thailand united kingdom
+NOISE,-1,True,noise / unclustered,26,4,DAL|F|LUV|TSLA,0.09430951625108719,monitor potential rulemaking impact business

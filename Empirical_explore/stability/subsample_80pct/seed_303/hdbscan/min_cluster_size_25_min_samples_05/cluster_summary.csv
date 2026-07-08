@@ -1,0 +1,2 @@
+cluster_id,cluster_label_numeric,is_noise,top_terms,cluster_size,n_firms,firms,mean_within_cluster_pairwise_cosine,representative_phrase_1
+NOISE,-1,True,noise / unclustered,418,4,DAL|F|LUV|TSLA,0.17625181376934052,designing manufacturing marketing financing service line ford car truck suvs electrified vehicle lincoln luxury vehicle

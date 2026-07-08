@@ -1,0 +1,795 @@
+row_id,actor,actor_class,actor_reason,actor_model,actor_status
+0,We,firm,"The source sentence uses 'We' referring to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+1,A certified labor union,external_actor,"The actor is a labor union, which is an external actor.",deepseek-chat,ok
+2,A transatlantic joint venture with Virgin Atlantic Airways,product_or_system,"The joint venture is a system/arrangement, not explicitly the firm itself.",deepseek-chat,ok
+3,A transpacific joint venture with Virgin Australia Airlines and its affiliated carriers,product_or_system,"The joint venture is a system/arrangement, not explicitly the firm itself.",deepseek-chat,ok
+4,We,firm,"The source sentence uses 'We' referring to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+5,we,firm,"The source sentence uses 'we' referring to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+6,we,firm,"The source sentence uses 'we' referring to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+7,the U.S. President,external_actor,The U.S. President is an external actor (government).,deepseek-chat,ok
+8,the parties,external_actor,"The parties include the union and the employer, both external to the focal company.",deepseek-chat,ok
+9,segment results,product_or_system,"The actor is 'segment results', which is a report/system, not the firm.",deepseek-chat,ok
+10,the refinery operated by Monroe,product_or_system,"Monroe is a subsidiary, but the actor is the refinery itself, a system.",deepseek-chat,ok
+11,Certain of these agreements,product_or_system,"The actor is the agreements, which are systems/contracts.",deepseek-chat,ok
+12,We,firm,"The source sentence uses 'We' referring to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+13,Congress and the President,external_actor,Congress and the President are external actors (government).,deepseek-chat,ok
+14,Delta Global Services,firm,"Delta Global Services is a subsidiary of Delta Air Lines, Inc., so it is part of the firm.",deepseek-chat,ok
+15,We,firm,"The source sentence uses 'We' referring to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+16,We,firm,"The source sentence uses 'We' referring to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+17,discount carriers,external_actor,"Discount carriers are other companies, external actors.",deepseek-chat,ok
+18,Each of these operations,product_or_system,"The actor is the operations, which are systems/processes.",deepseek-chat,ok
+19,Each of these operations,product_or_system,"The actor is the operations, which are systems/processes.",deepseek-chat,ok
+20,Either party,external_actor,"The source sentence says 'Either party may request', referring to either party in negotiations, which could be the company or the union, but not specifically the focal company.",deepseek-chat,ok
+21,We,firm,"'We' refers to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+23,We,firm,"'We' refers to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+24,We,firm,"'We' refers to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+25,We,firm,"'We' refers to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+26,We,firm,"'We' refers to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+27,We,firm,"'We' refers to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+28,the NMB,external_actor,"The NMB is a government agency, not the focal company.",deepseek-chat,ok
+29,the parties,external_actor,"'The parties' refers to both sides in negotiations, not specifically the focal company.",deepseek-chat,ok
+30,the refinery,product_or_system,"The refinery is a facility, not explicitly the focal company.",deepseek-chat,ok
+32,we and Aeroméxico,external_actor,"'We' refers to Delta, but the joint venture includes Aeroméxico, an external actor. The activity is performed jointly.",deepseek-chat,ok
+33,we and Aeroméxico,external_actor,"Same as above, joint activity with external actor.",deepseek-chat,ok
+34,we,firm,"'We' refers to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+35,we,firm,"'We' refers to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+36,"our MRO operation, known as Delta TechOps",firm,"Delta TechOps is a controlled operating unit of Delta Air Lines, Inc.",deepseek-chat,ok
+37,we,firm,"'We' refers to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+38,our aircraft,product_or_system,"The aircraft are products/systems, not the company itself.",deepseek-chat,ok
+39,individuals and companies,external_actor,"These are external actors, not the focal company.",deepseek-chat,ok
+40,individuals and companies,external_actor,Same as above.,deepseek-chat,ok
+42,we,firm,"'We' refers to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+43,these arrangements,product_or_system,"The activity is performed by 'these arrangements', which are commercial agreements, not the focal company directly.",deepseek-chat,ok
+44,these arrangements,product_or_system,Same as row 43; the arrangements are the actor.,deepseek-chat,ok
+45,we,firm,"'we' refers to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+47,Labor unions,external_actor,Labor unions are external actors organizing employees.,deepseek-chat,ok
+48,fares,product_or_system,"The sentence says 'fares are subject to commissions...', so fares are the subject, not the company.",deepseek-chat,ok
+49,travel agents,external_actor,Travel agents sell the tickets.,deepseek-chat,ok
+50,Mileage credit,product_or_system,Mileage credit is the subject that may be earned.,deepseek-chat,ok
+51,Mileage credit,product_or_system,Same as row 50.,deepseek-chat,ok
+52,Monroe,firm,"Monroe is a subsidiary of Delta, so it is part of the focal company.",deepseek-chat,ok
+53,Monroe,firm,Same as row 52.,deepseek-chat,ok
+54,Monroe,firm,Same as row 52.,deepseek-chat,ok
+55,Monroe's operation,firm,Monroe is a subsidiary of Delta.,deepseek-chat,ok
+56,Our aircraft,product_or_system,"Aircraft are products, not the company directly.",deepseek-chat,ok
+57,Our aircraft,product_or_system,Same as row 56.,deepseek-chat,ok
+58,Our commercial agreements,product_or_system,Agreements are systems/products.,deepseek-chat,ok
+59,Our commercial agreements,product_or_system,Same as row 58.,deepseek-chat,ok
+60,Our contractual agreements,product_or_system,Agreements are systems/products.,deepseek-chat,ok
+62,we,firm,"'we' refers to Delta Air Lines, Inc.",deepseek-chat,ok
+63,we,firm,Same as row 62.,deepseek-chat,ok
+64,Our global route network,product_or_system,"The network is a system, not the company directly.",deepseek-chat,ok
+65,Our international alliance relationships with foreign carriers,external_actor,"The actor is 'international alliance relationships with foreign carriers', which are external entities, not the focal company.",deepseek-chat,ok
+66,Our operations,firm,"'Our operations' refers to Delta Air Lines, Inc.'s operations.",deepseek-chat,ok
+67,Our operations,firm,"Same as above, 'Our operations' implies the focal company.",deepseek-chat,ok
+68,Delta Private Jets,firm,"Delta Private Jets is a controlled operating unit of Delta Air Lines, Inc.",deepseek-chat,ok
+69,Delta Private Jets,firm,Same as above.,deepseek-chat,ok
+71,we,firm,"'We' refers to Delta Air Lines, Inc.",deepseek-chat,ok
+72,we,firm,Same as above.,deepseek-chat,ok
+73,we,firm,Same as above.,deepseek-chat,ok
+76,MLT Vacations,firm,"MLT Vacations is a controlled operating unit of Delta Air Lines, Inc.",deepseek-chat,ok
+77,We,firm,"'We' refers to Delta Air Lines, Inc.",deepseek-chat,ok
+78,the union,external_actor,A union is an external actor.,deepseek-chat,ok
+79,the airline,firm,"'The airline' refers to Delta Air Lines, Inc. in context.",deepseek-chat,ok
+80,SkyMiles program mileage credits,product_or_system,"The actor is a program/credits, not the firm directly.",deepseek-chat,ok
+82,SkyWest Airlines,external_actor,"SkyWest Airlines is a separate company, an external actor.",deepseek-chat,ok
+83,The appointment of a PEB,external_actor,PEB (Presidential Emergency Board) is an external entity.,deepseek-chat,ok
+84,The expanded commercial agreement,product_or_system,The agreement itself is not a firm; it's a product/system.,deepseek-chat,ok
+85,the refinery,product_or_system,"The refinery is a facility, not explicitly the firm.",deepseek-chat,ok
+86,The facility,product_or_system,The facility is a product/system.,deepseek-chat,ok
+87,The NMB,external_actor,NMB (National Mediation Board) is an external government agency.,deepseek-chat,ok
+88,The NMB,external_actor,Same as above.,deepseek-chat,ok
+89,The SkyMiles program,product_or_system,The SkyMiles program is a product/system; no explicit firm agency.,deepseek-chat,ok
+91,These alliances,product_or_system,"Alliances are arrangements, not a firm; no explicit firm agency.",deepseek-chat,ok
+92,we,firm,"'we' refers to Delta Air Lines, Inc.",deepseek-chat,ok
+94,These capacity purchase agreements,product_or_system,Agreements are not a firm; no explicit firm agency.,deepseek-chat,ok
+95,This proration agreement,product_or_system,Agreement is not a firm; no explicit firm agency.,deepseek-chat,ok
+96,Delta,firm,Delta is the focal company.,deepseek-chat,ok
+97,we,firm,"'we' refers to Delta Air Lines, Inc.",deepseek-chat,ok
+99,we,firm,"'we' refers to Delta Air Lines, Inc.",deepseek-chat,ok
+100,we,firm,"'we' refers to Delta Air Lines, Inc.",deepseek-chat,ok
+101,we,firm,"'we' refers to Delta Air Lines, Inc.",deepseek-chat,ok
+102,we,firm,"'we' refers to Delta Air Lines, Inc.",deepseek-chat,ok
+103,We,firm,"'We' refers to Delta Air Lines, Inc.",deepseek-chat,ok
+104,We,firm,"'We' refers to Delta Air Lines, Inc.",deepseek-chat,ok
+105,We,firm,"'We' refers to Delta Air Lines, Inc.",deepseek-chat,ok
+106,We,firm,"'We' refers to Delta Air Lines, Inc.",deepseek-chat,ok
+107,We,firm,"'We' refers to Delta Air Lines, Inc.",deepseek-chat,ok
+108,We,firm,"'We' refers to Delta Air Lines, Inc.",deepseek-chat,ok
+109,We,firm,"'We' refers to Delta Air Lines, Inc.",deepseek-chat,ok
+110,We,firm,"'We' refers to Delta Air Lines, Inc.",deepseek-chat,ok
+111,We,firm,"'We' refers to Delta Air Lines, Inc.",deepseek-chat,ok
+113,We,firm,"The source sentence uses 'We', referring to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+114,We,firm,"The source sentence uses 'We', referring to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+115,We,firm,"The source sentence uses 'We', referring to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+117,We,firm,"The source sentence uses 'We', referring to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+118,We,firm,"The source sentence uses 'We', referring to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+119,We,firm,"The source sentence uses 'We', referring to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+121,We,firm,"The source sentence uses 'We', referring to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+123,We,firm,"The source sentence uses 'We', referring to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+124,We,firm,"The source sentence uses 'We', referring to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+125,We,firm,"The source sentence uses 'We', referring to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+126,We,firm,"The source sentence uses 'We', referring to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+127,We,firm,"The source sentence uses 'We', referring to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+129,We,firm,"The source sentence uses 'We', referring to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+130,We,firm,"The source sentence uses 'We', referring to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+131,We,firm,"The source sentence uses 'We', referring to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+132,We,firm,"The source sentence uses 'We', referring to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+133,We,firm,"The source sentence uses 'We', referring to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+134,We,firm,"The source sentence uses 'We', referring to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+136,We,firm,"The source sentence uses 'We', referring to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+137,We,firm,"The source sentence uses 'We', referring to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+138,We,firm,"The source sentence uses 'We' referring to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+139,We,firm,"Same as above, 'We' refers to Delta.",deepseek-chat,ok
+140,We,firm,"'We' refers to Delta Air Lines, Inc.",deepseek-chat,ok
+141,We,firm,'We' refers to Delta.,deepseek-chat,ok
+142,We,firm,'We' refers to Delta.,deepseek-chat,ok
+143,We,firm,'We' refers to Delta.,deepseek-chat,ok
+144,We,firm,'We' refers to Delta.,deepseek-chat,ok
+145,We,firm,'We' refers to Delta.,deepseek-chat,ok
+146,We,firm,'We' refers to Delta.,deepseek-chat,ok
+147,We,firm,'We' refers to Delta.,deepseek-chat,ok
+148,We,firm,'We' refers to Delta.,deepseek-chat,ok
+149,We,firm,'We' refers to Delta.,deepseek-chat,ok
+150,We,firm,'We' refers to Delta.,deepseek-chat,ok
+151,We,firm,'We' refers to Delta.,deepseek-chat,ok
+152,We,firm,'We' refers to Delta.,deepseek-chat,ok
+153,We,firm,'We' refers to Delta.,deepseek-chat,ok
+154,We,firm,'We' refers to Delta.,deepseek-chat,ok
+155,We,firm,'We' refers to Delta.,deepseek-chat,ok
+156,We,firm,'We' refers to Delta.,deepseek-chat,ok
+157,We,firm,'We' refers to Delta.,deepseek-chat,ok
+159,We,firm,"The source sentence uses 'We' referring to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+160,We,firm,"The source sentence uses 'We' referring to Delta Air Lines, Inc., the focal company.",deepseek-chat,ok
+161,Our industry,external_actor,"The actor is 'Our industry', which is not the focal company itself but the broader industry.",deepseek-chat,ok
+162,All of these documents,product_or_system,"The actor is 'All of these documents', a product/system, not the firm directly.",deepseek-chat,ok
+163,we,firm,"The source sentence uses 'we' referring to Ford Motor Company, the focal company.",deepseek-chat,ok
+165,we,firm,"The source sentence uses 'we' referring to Ford Motor Company, the focal company.",deepseek-chat,ok
+166,we,firm,"The source sentence uses 'we' referring to Ford Motor Company, the focal company.",deepseek-chat,ok
+167,Ford Credit,firm,"Ford Credit is a wholly-owned subsidiary of Ford Motor Company, so it is part of the focal firm.",deepseek-chat,ok
+168,it,unclear,The pronoun 'it' is ambiguous; could refer to the company or the industry. No clear antecedent.,deepseek-chat,ok
+169,we,firm,"The source sentence uses 'we' referring to Ford Motor Company, the focal company.",deepseek-chat,ok
+170,we,firm,"The source sentence uses 'we' referring to Ford Motor Company, the focal company.",deepseek-chat,ok
+171,we,firm,"The source sentence uses 'we' referring to Ford Motor Company, the focal company.",deepseek-chat,ok
+172,Ford Credit,firm,"Ford Credit is a wholly-owned subsidiary of Ford Motor Company, so it is part of the focal firm.",deepseek-chat,ok
+173,Ford Credit,firm,"Ford Credit is a wholly-owned subsidiary of Ford Motor Company, so it is part of the focal firm.",deepseek-chat,ok
+174,We,firm,"The source sentence uses 'We' referring to Ford Motor Company, the focal company.",deepseek-chat,ok
+175,Ford and the industry,external_actor,"The actor includes 'the industry' as a separate entity, not solely the focal firm.",deepseek-chat,ok
+176,Ford Credit,firm,"Ford Credit is a wholly-owned subsidiary of Ford Motor Company, so it is part of the focal firm.",deepseek-chat,ok
+177,Ford Credit,firm,"Ford Credit is a wholly-owned subsidiary of Ford Motor Company, so it is part of the focal firm.",deepseek-chat,ok
+178,Ford Credit,firm,"Ford Credit is a wholly-owned subsidiary of Ford Motor Company, so it is part of the focal firm.",deepseek-chat,ok
+179,Ford Credit,firm,"Ford Credit is a wholly-owned subsidiary of Ford Motor Company, so it is part of the focal firm.",deepseek-chat,ok
+180,Ford Credit,firm,"Ford Credit is a subsidiary of Ford Motor Company, the focal company.",deepseek-chat,ok
+181,Ford Credit,firm,Ford Credit is a subsidiary of Ford Motor Company.,deepseek-chat,ok
+183,Ford Credit,firm,Ford Credit is the subject receiving payments.,deepseek-chat,ok
+184,Ford Credit,firm,Ford Credit is the subject receiving payments.,deepseek-chat,ok
+185,Ford Credit,firm,Ford Credit is the subject making loans.,deepseek-chat,ok
+186,Ford Credit,firm,Ford Credit is the subject making loans.,deepseek-chat,ok
+187,Ford Credit,firm,Ford Credit is the subject making loans.,deepseek-chat,ok
+188,Ford Credit,firm,Ford Credit is the subject of the sentence.,deepseek-chat,ok
+189,Ford Credit,firm,Ford Credit is the subject making loans.,deepseek-chat,ok
+190,Ford Credit,firm,Ford Credit is the subject making loans.,deepseek-chat,ok
+191,Ford Credit,firm,Ford Credit is the subject making loans.,deepseek-chat,ok
+192,Ford Credit,firm,Ford Credit is the subject making loans.,deepseek-chat,ok
+193,Ford,firm,"Ford refers to Ford Motor Company, the focal company.",deepseek-chat,ok
+194,we,firm,'we' refers to Ford Motor Company.,deepseek-chat,ok
+195,we,firm,'we' refers to Ford Motor Company.,deepseek-chat,ok
+196,we,firm,'we' refers to Ford Motor Company.,deepseek-chat,ok
+197,we,firm,'we' refers to Ford Motor Company.,deepseek-chat,ok
+198,we,firm,'we' refers to Ford Motor Company.,deepseek-chat,ok
+199,we,firm,'we' refers to Ford Motor Company.,deepseek-chat,ok
+200,we,firm,'we' refers to Ford Motor Company.,deepseek-chat,ok
+201,we,firm,"The source sentence uses 'we', referring to Ford Motor Company.",deepseek-chat,ok
+202,we,firm,"The source sentence uses 'we', referring to Ford Motor Company.",deepseek-chat,ok
+203,we,firm,"The source sentence uses 'we', referring to Ford Motor Company.",deepseek-chat,ok
+204,Ford Credit,external_actor,"Ford Credit is a separate entity from Ford Motor Company, though related.",deepseek-chat,ok
+205,we,firm,"The source sentence uses 'we', referring to Ford Motor Company.",deepseek-chat,ok
+206,we,firm,"The source sentence uses 'we', referring to Ford Motor Company.",deepseek-chat,ok
+207,we,firm,"The source sentence uses 'we', referring to Ford Motor Company.",deepseek-chat,ok
+208,we,firm,"The source sentence uses 'we', referring to Ford Motor Company.",deepseek-chat,ok
+210,we,firm,"The source sentence uses 'we', referring to Ford Motor Company.",deepseek-chat,ok
+212,we,firm,"The source sentence uses 'we', referring to Ford Motor Company.",deepseek-chat,ok
+213,we,firm,"The source sentence uses 'we', referring to Ford Motor Company.",deepseek-chat,ok
+215,we,firm,"The source sentence uses 'we', referring to Ford Motor Company.",deepseek-chat,ok
+216,we,firm,"The source sentence uses 'we', referring to Ford Motor Company.",deepseek-chat,ok
+217,we,firm,"The source sentence uses 'we', referring to Ford Motor Company.",deepseek-chat,ok
+219,we,firm,"The source sentence uses 'we', referring to Ford Motor Company.",deepseek-chat,ok
+220,Ford Credit,external_actor,Ford Credit is the entity that could require the capital contribution.,deepseek-chat,ok
+221,Our ability,firm,'Our' refers to Ford Motor Company.,deepseek-chat,ok
+222,Our concern,firm,'Our' refers to Ford Motor Company.,deepseek-chat,ok
+223,Our policy,firm,'Our' refers to Ford Motor Company.,deepseek-chat,ok
+224,Our reports,firm,'Our' refers to Ford Motor Company.,deepseek-chat,ok
+225,Our vehicle brands,product_or_system,"The phrase 'Our vehicle brands are Ford and Lincoln' uses 'Our' referring to Ford Motor Company, but the actor is 'vehicle brands', which are products.",deepseek-chat,ok
+226,we,firm,"'we' refers to Ford Motor Company, the focal company.",deepseek-chat,ok
+227,we,firm,'we' refers to Ford Motor Company.,deepseek-chat,ok
+228,we,firm,'we' refers to Ford Motor Company.,deepseek-chat,ok
+229,Retail financing,product_or_system,"The sentence describes 'Retail financing' as offering leases, but the actor is the financing service, not the firm explicitly.",deepseek-chat,ok
+230,Retail financing,product_or_system,Same as above; 'Retail financing' is the actor.,deepseek-chat,ok
+231,Ford Credit,firm,"Ford Credit is a subsidiary of Ford Motor Company, so it is part of the focal firm.",deepseek-chat,ok
+232,"Several European countries, including France and Germany",external_actor,"These are governments, external to Ford.",deepseek-chat,ok
+233,we,firm,'we' refers to Ford Motor Company.,deepseek-chat,ok
+234,we,firm,'we' refers to Ford Motor Company.,deepseek-chat,ok
+235,we,firm,'we' refers to Ford Motor Company.,deepseek-chat,ok
+236,Ford Credit,firm,Ford Credit is a subsidiary of Ford.,deepseek-chat,ok
+237,us,firm,'us' refers to Ford Motor Company and its consolidated entities.,deepseek-chat,ok
+238,manufacturers,external_actor,"The sentence refers to manufacturers in general, not specifically Ford.",deepseek-chat,ok
+239,manufacturers,external_actor,Same as above; generic manufacturers.,deepseek-chat,ok
+240,Ford Credit’s business,product_or_system,"The actor is 'Ford Credit’s business', which is a business unit, but the activity is described as consisting of financing, so it's a system.",deepseek-chat,ok
+241,Ford Credit’s business,product_or_system,Same as above.,deepseek-chat,ok
+242,we,firm,'we' refers to Ford Motor Company.,deepseek-chat,ok
+243,hiring in North America,product_or_system,"The actor is 'hiring', which is an activity, but the sentence says 'hiring in North America' is the subject; it's unclear who is hiring, but context implies Ford. However, the phrase is the actor, so classify as product_or_system.",deepseek-chat,ok
+244,We,firm,'We' refers to Ford Motor Company.,deepseek-chat,ok
+245,We,firm,"The source sentence uses 'We' referring to Ford Motor Company, the focal company.",deepseek-chat,ok
+246,We,firm,The source sentence uses 'We' referring to Ford Motor Company.,deepseek-chat,ok
+247,We,firm,Same as row 246.,deepseek-chat,ok
+248,We,firm,The source sentence uses 'We' referring to Ford Motor Company.,deepseek-chat,ok
+249,We,firm,Same as row 248.,deepseek-chat,ok
+252,We,firm,The source sentence uses 'We' referring to Ford Motor Company.,deepseek-chat,ok
+253,We,firm,The source sentence uses 'We' referring to Ford Motor Company.,deepseek-chat,ok
+254,We,firm,The source sentence uses 'We' referring to Ford Motor Company.,deepseek-chat,ok
+255,We,firm,The source sentence uses 'We' referring to Ford Motor Company.,deepseek-chat,ok
+256,We,firm,The source sentence uses 'We' referring to Ford Motor Company.,deepseek-chat,ok
+258,We,firm,The source sentence uses 'We' referring to Ford Motor Company.,deepseek-chat,ok
+259,We,firm,The source sentence uses 'We' referring to Ford Motor Company.,deepseek-chat,ok
+260,We,firm,Same as row 259.,deepseek-chat,ok
+261,We,firm,The source sentence uses 'We' referring to Ford Motor Company.,deepseek-chat,ok
+262,We,firm,Same as row 261.,deepseek-chat,ok
+263,We,firm,The source sentence uses 'We' referring to Ford Motor Company.,deepseek-chat,ok
+265,We,firm,The source sentence uses 'We' referring to Ford Motor Company.,deepseek-chat,ok
+266,We,firm,Same as row 265.,deepseek-chat,ok
+268,We,firm,The source sentence uses 'We' referring to Ford Motor Company.,deepseek-chat,ok
+269,We,firm,The source sentence uses 'We' referring to Ford Motor Company.,deepseek-chat,ok
+270,We,firm,The source sentence uses 'We' referring to Ford Motor Company.,deepseek-chat,ok
+271,We,firm,The source sentence uses 'We' referring to Ford Motor Company.,deepseek-chat,ok
+272,We,firm,The source sentence uses 'We' referring to Ford Motor Company.,deepseek-chat,ok
+273,We,firm,The source sentence uses 'We' referring to Ford Motor Company.,deepseek-chat,ok
+274,We,firm,The source sentence uses 'We' referring to Ford Motor Company.,deepseek-chat,ok
+275,We,firm,The source sentence uses 'We' referring to Ford Motor Company.,deepseek-chat,ok
+278,We,firm,The source sentence uses 'We' referring to Ford Motor Company.,deepseek-chat,ok
+279,We,firm,The source sentence uses 'We' referring to Ford Motor Company.,deepseek-chat,ok
+281,We,firm,The source sentence uses 'We' referring to Ford Motor Company.,deepseek-chat,ok
+282,We,firm,The source sentence uses 'We' referring to Ford Motor Company.,deepseek-chat,ok
+283,We,firm,The source sentence uses 'We' referring to Ford Motor Company.,deepseek-chat,ok
+284,We,firm,The source sentence uses 'We' referring to Ford Motor Company.,deepseek-chat,ok
+286,our core business,firm,'our core business' is part of Ford Motor Company.,deepseek-chat,ok
+287,our core business,firm,'our core business' is part of Ford Motor Company.,deepseek-chat,ok
+288,our core business,firm,'our core business' is part of Ford Motor Company.,deepseek-chat,ok
+289,our core business,firm,'our core business' is part of Ford Motor Company.,deepseek-chat,ok
+290,our core business,firm,'our core business' is part of Ford Motor Company.,deepseek-chat,ok
+291,our core business,firm,'our core business' is part of Ford Motor Company.,deepseek-chat,ok
+292,our core business,firm,'our core business' is part of Ford Motor Company.,deepseek-chat,ok
+293,we,firm,The source sentence uses 'we' referring to Ford Motor Company.,deepseek-chat,ok
+294,Southwest.com,product_or_system,"The website is the actor, not the company explicitly.",deepseek-chat,ok
+295,Southwest Customers,external_actor,Customers are the ones managing travel.,deepseek-chat,ok
+296,the Company,firm,Refers to Southwest Airlines Co.,deepseek-chat,ok
+297,Southwest,firm,Refers to the company.,deepseek-chat,ok
+298,a U.S. airline,external_actor,"Generic airline, not specifically Southwest.",deepseek-chat,ok
+299,the Company,firm,Refers to Southwest Airlines Co.,deepseek-chat,ok
+301,"some major U.S. airlines, including Southwest",firm,Southwest is included as a firm.,deepseek-chat,ok
+303,Southwest,firm,Company offers the mobile website and app.,deepseek-chat,ok
+304,Southwest,firm,Company offers the mobile website and app.,deepseek-chat,ok
+305,the Company,firm,Refers to Southwest Airlines Co.,deepseek-chat,ok
+306,Air carriers,external_actor,"Generic air carriers, not specifically Southwest.",deepseek-chat,ok
+307,new aircraft,product_or_system,"Aircraft are the subject, not the company.",deepseek-chat,ok
+308,Aircraft already in the Company's fleet,product_or_system,Aircraft are the subject.,deepseek-chat,ok
+310,Airlines,external_actor,"Generic airlines, not specifically Southwest.",deepseek-chat,ok
+311,All fare products,product_or_system,Fare products are the actor.,deepseek-chat,ok
+312,All fare products,product_or_system,Fare products are the actor.,deepseek-chat,ok
+313,Southwest,firm,Company does not impose fees.,deepseek-chat,ok
+314,Southwest,firm,Company does not impose fees.,deepseek-chat,ok
+316,Southwest,firm,Company served city pairs.,deepseek-chat,ok
+317,Southwest,firm,Company served city pairs.,deepseek-chat,ok
+318,the Company,firm,"The source sentence says 'the Company recently announced', and the focal company is Southwest Airlines Co.",deepseek-chat,ok
+319,the Company,firm,"Same sentence as row 318, actor is 'the Company'.",deepseek-chat,ok
+320,the Company,firm,Source sentence: 'the Company has published the Southwest One Report TM'.,deepseek-chat,ok
+321,the Company,firm,Same sentence as row 320.,deepseek-chat,ok
+322,the Company,firm,Source sentence: 'As the Company expands its international flight offerings'.,deepseek-chat,ok
+323,Southwest,firm,Source sentence: 'Southwest operated a total of 704 Boeing 737 aircraft.' 'Southwest' refers to the focal company.,deepseek-chat,ok
+324,Southwest,firm,Source sentence: 'Southwest offered a total of 180 weekday departures'.,deepseek-chat,ok
+325,Southwest,firm,Same sentence as row 324.,deepseek-chat,ok
+326,Southwest,firm,Source sentence: 'Southwest was the largest domestic air carrier'.,deepseek-chat,ok
+327,Southwest,firm,Source sentence: 'short-haul travel provided by Southwest'.,deepseek-chat,ok
+328,the Company,firm,"Source sentence: 'the Company currently serves, or may serve in the future'.",deepseek-chat,ok
+329,Southwest’s point-to-point route structure,product_or_system,"The actor is the route structure, not the company directly.",deepseek-chat,ok
+331,Southwest,firm,"Source sentence: 'Southwest had conducted over 23,000 RNP approaches'.",deepseek-chat,ok
+332,Southwest,firm,Source sentence: 'Southwest principally provides point-to-point service'.,deepseek-chat,ok
+333,Southwest Airlines Co.,firm,Source sentence: 'Southwest Airlines Co. ... operates Southwest Airlines'.,deepseek-chat,ok
+334,Southwest,firm,Source sentence: 'Southwest currently competes with other airlines'.,deepseek-chat,ok
+335,Southwest,firm,Source sentence: 'Southwest also competes with other airlines'.,deepseek-chat,ok
+336,the Company,firm,Source sentence: 'the Company also operated AirTran Airways'.,deepseek-chat,ok
+337,the Company,firm,Source sentence: 'the Company added its first three destinations'.,deepseek-chat,ok
+338,the Company,firm,Same sentence as row 337.,deepseek-chat,ok
+339,the Company,firm,"The source sentence explicitly states 'the Company' as the actor, which refers to Southwest Airlines Co., the focal company.",deepseek-chat,ok
+340,the Company,firm,"The source sentence explicitly states 'the Company' as the actor, which refers to Southwest Airlines Co., the focal company.",deepseek-chat,ok
+341,the Company,firm,"The source sentence explicitly states 'the Company' as the actor, which refers to Southwest Airlines Co., the focal company.",deepseek-chat,ok
+343,the Company,firm,"The source sentence states 'help the Company effectively manage', so the actor is the Company (focal firm).",deepseek-chat,ok
+344,the Company,firm,"The source sentence explicitly states 'the Company' as the actor, which refers to Southwest Airlines Co., the focal company.",deepseek-chat,ok
+345,the Company,firm,"The source sentence explicitly states 'the Company' as the actor, which refers to Southwest Airlines Co., the focal company.",deepseek-chat,ok
+346,the Company,firm,"The source sentence explicitly states 'the Company' as the actor, which refers to Southwest Airlines Co., the focal company.",deepseek-chat,ok
+347,the Company,firm,"The source sentence explicitly states 'the Company' as the actor, which refers to Southwest Airlines Co., the focal company.",deepseek-chat,ok
+348,the Company,firm,"The source sentence explicitly states 'the Company' as the actor, which refers to Southwest Airlines Co., the focal company.",deepseek-chat,ok
+349,the Company,firm,"The source sentence explicitly states 'the Company' as the actor, which refers to Southwest Airlines Co., the focal company.",deepseek-chat,ok
+350,the Company,firm,"The source sentence explicitly states 'the Company' as the actor, which refers to Southwest Airlines Co., the focal company.",deepseek-chat,ok
+352,airlines,external_actor,"The source sentence says 'airlines often discount fares', which is a generic reference to airlines, not specifically the focal company.",deepseek-chat,ok
+353,airlines,external_actor,"The source sentence says 'airlines often discount fares', which is a generic reference to airlines, not specifically the focal company.",deepseek-chat,ok
+354,the Company,firm,"The source sentence explicitly states 'the Company' as the actor, which refers to Southwest Airlines Co., the focal company.",deepseek-chat,ok
+355,the Company,firm,"The source sentence explicitly states 'the Company' as the actor, which refers to Southwest Airlines Co., the focal company.",deepseek-chat,ok
+356,Southwest,firm,"The source sentence says 'Southwest currently offers', where 'Southwest' refers to the focal company.",deepseek-chat,ok
+357,Southwest,firm,"The source sentence says 'Southwest currently offers', where 'Southwest' refers to the focal company.",deepseek-chat,ok
+358,Customers of Southwest and AirTran,external_actor,"The source sentence states 'Customers of Southwest and AirTran redeemed', so the actor is customers, which are external actors.",deepseek-chat,ok
+359,Customers of Southwest and AirTran,external_actor,"The source sentence states 'Customers of Southwest and AirTran redeemed', so the actor is customers, which are external actors.",deepseek-chat,ok
+360,Customers of Southwest,external_actor,"The source sentence states 'Customers of Southwest redeemed', so the actor is customers, which are external actors.",deepseek-chat,ok
+361,the Company,firm,The source sentence refers to 'the Company' which is the focal company Southwest Airlines Co.,deepseek-chat,ok
+362,the Company,firm,The source sentence states 'the Company proactively canceled its government provided war-risk insurance coverage'.,deepseek-chat,ok
+363,the Company,firm,The source sentence states 'the Company proactively canceled its government provided war-risk insurance coverage prior to that date and purchased comparable coverage'.,deepseek-chat,ok
+364,the government,external_actor,"The source sentence refers to 'government-provided supplemental coverage' and 'government provided war-risk insurance coverage', indicating the government provides the coverage.",deepseek-chat,ok
+365,the Company,firm,The source sentence states 'the Company ... purchased comparable coverage via the commercial insurance marketplace'.,deepseek-chat,ok
+366,the Company,firm,The source sentence states 'the Company launched a new visual expression of its brand'.,deepseek-chat,ok
+367,the Company,firm,"The source sentence states 'the Company launched a new visual expression of its brand by introducing a new Heart aircraft livery, airport experience, and logo'.",deepseek-chat,ok
+369,the Company,firm,The source sentence states 'the Company launched the Amadeus Altéa reservations solution'.,deepseek-chat,ok
+370,the Company,firm,The source sentence states 'the Company launched the Amadeus Altéa reservations solution to support the Company’s international service'.,deepseek-chat,ok
+372,the Company,firm,The source sentence states 'the Company currently expects to take delivery'.,deepseek-chat,ok
+373,the Company,firm,The source sentence states 'the Company currently expects to take delivery of an additional 36 Boeing 737-800 aircraft and 17 Boeing 737-700 aircraft'.,deepseek-chat,ok
+374,Members,external_actor,The source sentence states 'Members also have the ability to donate points to selected charities'.,deepseek-chat,ok
+375,Members,external_actor,"The source sentence states 'Members also have the ability to purchase, gift, and transfer points'.",deepseek-chat,ok
+376,the Company,firm,The source sentence states 'the Company publicly discloses material information'.,deepseek-chat,ok
+377,the Company,firm,"The source sentence states 'the Company publicly discloses material information from time to time in its press releases, at annual meetings of Shareholders, in publicly accessible conferences and Investor presentations, and through its website'.",deepseek-chat,ok
+378,airlines,external_actor,"The source sentence states 'airlines are required to ... adopt customer service plans, publish those plans on their website, and audit their own compliance with their plans'.",deepseek-chat,ok
+379,airlines,external_actor,The source sentence states 'airlines are required to ... designate an employee to monitor the performance of their flights'.,deepseek-chat,ok
+380,airlines,external_actor,The source sentence states 'airlines are required to ... display ontime performance on their websites'.,deepseek-chat,ok
+381,airlines,external_actor,The source sentence states 'airlines are required to ... provide information to passengers on how to file complaints'.,deepseek-chat,ok
+382,airlines,external_actor,The source sentence states 'airlines are required to ... respond in a timely and substantive fashion to consumer complaints'.,deepseek-chat,ok
+383,TSA,external_actor,"The TSA is a government agency, not the focal company.",deepseek-chat,ok
+384,many of the future airport conversions,unclear,"The actor is the conversions themselves, not a specific entity; unclear who performs the integration.",deepseek-chat,ok
+385,Southwest,firm,Southwest is the focal company.,deepseek-chat,ok
+387,Southwest,firm,Southwest is the focal company.,deepseek-chat,ok
+388,Southwest,firm,Southwest is the focal company.,deepseek-chat,ok
+390,the Company,firm,"The Company refers to Southwest Airlines Co., the focal company.",deepseek-chat,ok
+391,the Company,firm,"The Company refers to Southwest Airlines Co., the focal company.",deepseek-chat,ok
+393,the Company,firm,"The Company refers to Southwest Airlines Co., the focal company.",deepseek-chat,ok
+394,the Company,firm,"The Company refers to Southwest Airlines Co., the focal company.",deepseek-chat,ok
+396,the Company,firm,"The Company refers to Southwest Airlines Co., the focal company.",deepseek-chat,ok
+397,the Company,firm,"The Company refers to Southwest Airlines Co., the focal company.",deepseek-chat,ok
+398,Southwest and the other largest major U.S. airlines,external_actor,"The actor includes multiple airlines; Southwest is part of a group, but the activity is performed by the group, not solely the focal company.",deepseek-chat,ok
+399,Southwest Airlines,firm,Southwest Airlines is the focal company.,deepseek-chat,ok
+400,the Company,firm,"The Company refers to Southwest Airlines Co., the focal company.",deepseek-chat,ok
+401,Members,external_actor,"Members are customers, not the focal company.",deepseek-chat,ok
+402,Southwest,firm,Southwest is the focal company.,deepseek-chat,ok
+403,Members who attain A-List or A-List Preferred status,external_actor,"Members are customers, not the focal company.",deepseek-chat,ok
+404,"Members who fly 100 qualifying one-way flights or earn 110,000 qualifying points in a calendar year",external_actor,"Members are customers, not the focal company.",deepseek-chat,ok
+405,Southwest,firm,Southwest is the focal company.,deepseek-chat,ok
+406,Southwest,firm,Southwest is the focal company.,deepseek-chat,ok
+407,Southwest,firm,"The source sentence explicitly states 'Southwest also has an unaccompanied minor travel policy', where 'Southwest' refers to the focal company.",deepseek-chat,ok
+408,Southwest,firm,"The source sentence says 'Southwest also provides movies-on-demand, and also offers a Messaging-only option', indicating Southwest is the actor.",deepseek-chat,ok
+409,Southwest,firm,"Same as above, 'Southwest' is the subject performing the action.",deepseek-chat,ok
+411,Southwest,firm,"The source sentence states 'Southwest also provides movies-on-demand', so Southwest is the actor.",deepseek-chat,ok
+412,Southwest,firm,"The source sentence says 'Southwest bundles fares into three major categories', so Southwest is the actor.",deepseek-chat,ok
+413,Southwest,firm,"Same as above, 'Southwest' is the subject.",deepseek-chat,ok
+414,Southwest,firm,"The source sentence says 'Southwest complements its high-frequency short-haul routes', so Southwest is the actor.",deepseek-chat,ok
+415,Southwest,firm,"Same as above, 'Southwest' is the subject.",deepseek-chat,ok
+416,Southwest,firm,"The source sentence says 'Southwest continues to be the only major U.S. airline', so Southwest is the actor.",deepseek-chat,ok
+417,Southwest,firm,"The source sentence says 'Southwest continues to work with the FAA', so Southwest is the actor.",deepseek-chat,ok
+418,Southwest,firm,"Same as above, 'Southwest' is the subject.",deepseek-chat,ok
+419,Southwest,firm,"The source sentence says 'Southwest is also the only major U.S. airline', so Southwest is the actor.",deepseek-chat,ok
+420,Southwest,firm,"The source sentence says 'Southwest is also the only major U.S. airline that does not charge a fee', so Southwest is the actor.",deepseek-chat,ok
+422,Southwest,firm,"The source sentence says 'Southwest must rely on RNP approaches', so Southwest is the actor.",deepseek-chat,ok
+424,Southwest,firm,"The source sentence says 'Southwest offers inflight satellite-based WiFi service', so Southwest is the actor.",deepseek-chat,ok
+425,Southwest,firm,"Same as above, 'Southwest' is the subject.",deepseek-chat,ok
+427,Southwest,firm,"The source sentence says 'Southwest was the first carrier to offer gate-to-gate connectivity', so Southwest is the actor.",deepseek-chat,ok
+428,Southwest.com,product_or_system,"The source sentence says 'southwest.com is the only place where Customers can purchase Southwest fares online', so the website is the actor, not the firm directly.",deepseek-chat,ok
+429,Southwest’s No Show policy,product_or_system,"The source sentence says 'Southwest’s No Show policy applies', so the policy is the actor.",deepseek-chat,ok
+430,Southwest’s onboard entertainment options,product_or_system,"The source sentence says 'Southwest’s onboard entertainment options ... include free access', so the options are the actor.",deepseek-chat,ok
+431,Southwest’s onboard entertainment options,product_or_system,"The actor is 'Southwest’s onboard entertainment options', which is a product/system, not the firm directly.",deepseek-chat,ok
+432,Southwest’s onboard entertainment options,product_or_system,Same as above; the actor is the product/system.,deepseek-chat,ok
+433,Southwest’s Pet Policy,product_or_system,"The actor is a policy, which is a product/system of the firm.",deepseek-chat,ok
+434,Southwest’s point-to-point route structure,product_or_system,"The actor is a route structure, a system.",deepseek-chat,ok
+435,Southwest’s point-to-point service,product_or_system,"The actor is a service, which is a product/system.",deepseek-chat,ok
+436,it,firm,'it' refers to Southwest Airlines Co. (the focal company) from the previous clause.,deepseek-chat,ok
+437,Southwest’s Rapid Rewards frequent flyer program,product_or_system,"The actor is a program, a product/system.",deepseek-chat,ok
+438,Southwest’s Rapid Rewards frequent flyer program,product_or_system,Same as above.,deepseek-chat,ok
+439,Southwest’s Rapid Rewards frequent flyer program,product_or_system,The program offers status; it is a product/system.,deepseek-chat,ok
+440,Southwest’s Rapid Rewards frequent flyer program,product_or_system,The program offers Companion Pass; it is a product/system.,deepseek-chat,ok
+441,Southwest’s use of a single aircraft type,product_or_system,"The actor is a practice/use, which is a system.",deepseek-chat,ok
+442,the Company and its third-party service providers,firm,"'the Company' refers to Southwest Airlines Co., the focal company.",deepseek-chat,ok
+443,the Company,firm,'the Company' is Southwest Airlines Co.,deepseek-chat,ok
+445,The Company,firm,'The Company' is Southwest Airlines Co.,deepseek-chat,ok
+447,The Company,firm,'The Company' is Southwest Airlines Co.,deepseek-chat,ok
+448,The Company,firm,Same as above.,deepseek-chat,ok
+449,The Company,firm,'The Company' is Southwest Airlines Co.,deepseek-chat,ok
+450,The Company,firm,Same as above.,deepseek-chat,ok
+451,The Company,firm,Same as above.,deepseek-chat,ok
+452,The Company,firm,'The Company' is Southwest Airlines Co.,deepseek-chat,ok
+453,The Company,firm,"The source sentence explicitly states 'The Company also participates...', referring to Southwest Airlines Co.",deepseek-chat,ok
+454,The Company,firm,"The source sentence says 'The Company believes...', referring to Southwest Airlines Co.",deepseek-chat,ok
+455,The Company,firm,The source sentence attributes the decision to 'the Company' (Southwest Airlines Co.).,deepseek-chat,ok
+456,The Company,firm,"The source sentence refers to 'the Company’s decision', indicating Southwest Airlines Co.",deepseek-chat,ok
+457,The Company,firm,"The source sentence states 'The Company believes...', referring to Southwest Airlines Co.",deepseek-chat,ok
+458,The Company,firm,"The source sentence says 'The Company carries insurance...', referring to Southwest Airlines Co.",deepseek-chat,ok
+459,The Company,firm,"The source sentence states 'The Company continued to replace...', referring to Southwest Airlines Co.",deepseek-chat,ok
+460,The Company,firm,"The source sentence says 'The Company continued to replace...', referring to Southwest Airlines Co.",deepseek-chat,ok
+461,The Company,firm,"The source sentence states 'The Company continues to evaluate...', referring to Southwest Airlines Co.",deepseek-chat,ok
+462,The Company,firm,"The source sentence says 'The Company continues to evaluate...', referring to Southwest Airlines Co.",deepseek-chat,ok
+464,The Company,firm,"The source sentence states 'The Company controlled this expansion...', referring to Southwest Airlines Co.",deepseek-chat,ok
+465,The Company,firm,"The source sentence says 'The Company ended 2015 serving...', referring to Southwest Airlines Co.",deepseek-chat,ok
+466,The Company,firm,"The source sentence says 'The Company ended 2015 serving...', referring to Southwest Airlines Co.",deepseek-chat,ok
+467,The Company,firm,"The source sentence states 'The Company has also made significant investments...', referring to Southwest Airlines Co.",deepseek-chat,ok
+469,The Company,firm,"The source sentence says 'The Company has also participated...', referring to Southwest Airlines Co.",deepseek-chat,ok
+470,The Company,firm,"The source sentence states 'The Company has continued to incorporate...', referring to Southwest Airlines Co.",deepseek-chat,ok
+471,The Company,firm,"The source sentence says 'The Company has continued to incorporate...', referring to Southwest Airlines Co.",deepseek-chat,ok
+472,The Company,firm,"The source sentence states 'The Company has made and expects to continue...', referring to Southwest Airlines Co.",deepseek-chat,ok
+473,The Company,firm,"The source sentence says 'The Company has obtained...', referring to Southwest Airlines Co.",deepseek-chat,ok
+474,The Company,firm,"The source sentence says 'The Company has obtained...', referring to Southwest Airlines Co.",deepseek-chat,ok
+475,The Company,firm,"The source sentence explicitly states 'The Company' as the actor, which refers to Southwest Airlines Co., the focal company.",deepseek-chat,ok
+476,The Company,firm,Same as above; 'The Company' is the actor.,deepseek-chat,ok
+477,The Company,firm,The source sentence states 'The Company has undertaken...' so the actor is the focal company.,deepseek-chat,ok
+478,The Company,firm,The source sentence states 'The Company has undertaken...' so the actor is the focal company.,deepseek-chat,ok
+479,The Company,firm,The source sentence states 'The Company intends to continue...' so the actor is the focal company.,deepseek-chat,ok
+480,The Company,firm,The source sentence states 'The Company intends to continue...' so the actor is the focal company.,deepseek-chat,ok
+481,The Company,firm,The source sentence states 'The Company intends to continue...' so the actor is the focal company.,deepseek-chat,ok
+482,The Company,firm,The source sentence states 'The Company is also monitoring...' so the actor is the focal company.,deepseek-chat,ok
+483,The Company,firm,The source sentence states 'The Company is also monitoring...' so the actor is the focal company.,deepseek-chat,ok
+484,The Company,firm,The source sentence states 'The Company is in the midst...' so the actor is the focal company.,deepseek-chat,ok
+485,The Company,firm,The source sentence states 'The Company is in the midst...' so the actor is the focal company.,deepseek-chat,ok
+486,The Company,firm,The source sentence states 'The Company is subject to...' so the actor is the focal company.,deepseek-chat,ok
+487,The Company,firm,The source sentence states 'The Company is subject to...' so the actor is the focal company.,deepseek-chat,ok
+488,The Company,firm,The source sentence states 'The Company offers...' so the actor is the focal company.,deepseek-chat,ok
+489,The Company,firm,The source sentence states 'The Company reached...' so the actor is the focal company.,deepseek-chat,ok
+490,The Company,firm,The source sentence states 'The Company requests...' so the actor is the focal company.,deepseek-chat,ok
+491,The Company,firm,The source sentence states 'The Company requests...' so the actor is the focal company.,deepseek-chat,ok
+492,The Company,firm,The source sentence states 'The Company undertakes...' so the actor is the focal company.,deepseek-chat,ok
+493,The Company,firm,The source sentence states 'The Company works...' so the actor is the focal company.,deepseek-chat,ok
+494,The Company,firm,The source sentence states 'The Company works...' so the actor is the focal company.,deepseek-chat,ok
+495,The Company,firm,"The source sentence explicitly states 'The Company' participates, referring to Southwest Airlines Co.",deepseek-chat,ok
+496,The Company,firm,"Same as above, 'The Company' is the actor.",deepseek-chat,ok
+497,"Southwest's use of a single aircraft type, its operationally efficient point-to-point route structure, and its highly productive Employees",product_or_system,"The actor is a set of operational elements, not the firm directly.",deepseek-chat,ok
+498,passenger airlines,external_actor,"The sentence refers to airlines in general, including Southwest but not exclusively.",deepseek-chat,ok
+499,The optimizing tool,product_or_system,"The tool is the actor, not the firm directly.",deepseek-chat,ok
+500,airlines,external_actor,"The sentence refers to airlines in general, not specifically Southwest.",deepseek-chat,ok
+501,airlines,external_actor,"Same as above, general requirement for airlines.",deepseek-chat,ok
+502,airlines,external_actor,Same as above.,deepseek-chat,ok
+503,airlines,external_actor,Same as above.,deepseek-chat,ok
+504,passengers,external_actor,"The sentence describes what passengers are allowed to do, not the firm.",deepseek-chat,ok
+505,passengers,external_actor,Same as above.,deepseek-chat,ok
+506,the same baggage allowances and fees,product_or_system,"The actor is a policy/rule, not a person or firm.",deepseek-chat,ok
+507,baggage fees,product_or_system,"The actor is the fees themselves, not a firm.",deepseek-chat,ok
+508,baggage fees,product_or_system,Same as above.,deepseek-chat,ok
+509,advertised airfares,product_or_system,"The actor is the airfares, not a firm.",deepseek-chat,ok
+510,fares,product_or_system,"The actor is the fares, not a firm.",deepseek-chat,ok
+511,passengers,external_actor,"The sentence describes what passengers must be notified, not the firm acting.",deepseek-chat,ok
+512,"The U.S. airline industry, including Southwest",external_actor,"The actor is the industry as a whole, not just the focal company.",deepseek-chat,ok
+513,the Company,firm,The sentence explicitly states 'the Company' as the actor.,deepseek-chat,ok
+514,the Company,firm,Same as above.,deepseek-chat,ok
+515,the Company,firm,The source sentence explicitly says 'the Company continually monitors and adjusts...' and the focal company is Southwest Airlines Co.,deepseek-chat,ok
+516,CS&S,firm,"CS&S is likely a controlled unit of Southwest Airlines Co., as it refers to a system used by the company.",deepseek-chat,ok
+517,the Company,firm,The source sentence says 'allow the Company to offer product enhancements'.,deepseek-chat,ok
+518,Southwest,firm,The source sentence says 'Southwest has continued to aggressively promote...' and Southwest is the focal company.,deepseek-chat,ok
+519,Southwest,firm,Same as above.,deepseek-chat,ok
+520,airlines,external_actor,"The source sentence says 'the FAA requires airlines to obtain...' - airlines in general, not specifically Southwest.",deepseek-chat,ok
+521,a domestic airline,external_actor,"The source sentence says 'a domestic airline is required to hold...' - generic, not specifically Southwest.",deepseek-chat,ok
+522,the Company,firm,The source sentence says 'the Company seeks to serve...'.,deepseek-chat,ok
+523,U.S. passenger airlines,external_actor,The source sentence says 'U.S. passenger airlines are required to adopt...' - generic requirement.,deepseek-chat,ok
+524,air carriers,external_actor,The source sentence says 'air carriers will provide...' - generic.,deepseek-chat,ok
+525,air carriers,external_actor,Same as above.,deepseek-chat,ok
+526,Members,external_actor,The source sentence says 'Members are able to redeem...' - members are customers.,deepseek-chat,ok
+527,Members,external_actor,Same as above.,deepseek-chat,ok
+528,Southwest,firm,The source sentence says 'Southwest also sells...'.,deepseek-chat,ok
+529,Southwest,firm,Same as above.,deepseek-chat,ok
+530,the Customer,external_actor,The source sentence says 'the Customer will not be charged...' - customer is external.,deepseek-chat,ok
+531,We,firm,The source sentence says 'We design our battery packs...' and focal company is Tesla.,deepseek-chat,ok
+532,We,firm,The source sentence says 'We have developed an expertise...'.,deepseek-chat,ok
+533,We,firm,The source sentence says 'We conduct vehicle manufacturing...'.,deepseek-chat,ok
+534,we,firm,The source sentence says 'we announced a patent policy...'.,deepseek-chat,ok
+535,we,firm,"The source sentence uses 'we' referring to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+536,we,firm,"The source sentence uses 'we' referring to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+537,our team,firm,"'Our team' refers to Tesla's team, part of the focal company.",deepseek-chat,ok
+538,our team,firm,"'Our team' refers to Tesla's team, part of the focal company.",deepseek-chat,ok
+539,our goal,firm,"'Our goal' implies Tesla's intention, so actor is the focal company.",deepseek-chat,ok
+540,our system,product_or_system,'Our system' is a product/system; no explicit firm agency.,deepseek-chat,ok
+541,our customers,external_actor,Customers are external actors.,deepseek-chat,ok
+542,we,firm,"'We' refers to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+543,we,firm,"'We' refers to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+544,we,firm,"'We' refers to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+545,we,firm,"'We' refers to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+546,we,firm,"'We' refers to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+547,we,firm,"'We' refers to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+548,we,firm,"'We' refers to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+549,our vehicles,product_or_system,'Our vehicles' are products; no explicit firm agency.,deepseek-chat,ok
+550,our customers,external_actor,Customers are external actors.,deepseek-chat,ok
+552,we,firm,"'We' refers to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+553,we,firm,"'We' refers to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+554,we,firm,"'We' refers to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+555,"over 1,800 locations around the world",external_actor,Locations are not the focal company; they are external sites.,deepseek-chat,ok
+556,we,firm,"The source sentence uses 'we', referring to Tesla Motors, Inc.",deepseek-chat,ok
+557,we,firm,"Same as row 556, 'we' refers to Tesla.",deepseek-chat,ok
+558,we,firm,"The source sentence uses 'we', referring to Tesla.",deepseek-chat,ok
+559,we,firm,"The source sentence uses 'we', referring to Tesla.",deepseek-chat,ok
+560,we,firm,"The source sentence uses 'we', referring to Tesla.",deepseek-chat,ok
+561,we,firm,"The source sentence uses 'we', referring to Tesla.",deepseek-chat,ok
+563,we,firm,"The source sentence uses 'we', referring to Tesla.",deepseek-chat,ok
+564,Tesla’s dual motor powertrain,product_or_system,"The actor is a product (powertrain), not the firm directly.",deepseek-chat,ok
+565,Tesla’s dual motor powertrain,product_or_system,Same as row 564.,deepseek-chat,ok
+566,Certain of our financing programs,product_or_system,"The actor is a program, not the firm directly.",deepseek-chat,ok
+567,Certain of our financing programs,product_or_system,Same as row 566.,deepseek-chat,ok
+568,We,firm,"The source sentence uses 'We', referring to Tesla.",deepseek-chat,ok
+569,Drivers,external_actor,"The actor is 'Drivers', who are customers.",deepseek-chat,ok
+570,we,firm,"The source sentence uses 'we', referring to Tesla.",deepseek-chat,ok
+571,we,firm,"The source sentence uses 'we', referring to Tesla.",deepseek-chat,ok
+572,We,firm,"The source sentence uses 'We', referring to Tesla.",deepseek-chat,ok
+573,we,firm,"The source sentence uses 'we', referring to Tesla.",deepseek-chat,ok
+574,we,firm,"The source sentence uses 'we', referring to Tesla.",deepseek-chat,ok
+575,we,firm,"The source sentence uses 'we', referring to Tesla.",deepseek-chat,ok
+576,our new high volume paint shop and new stamping lines,product_or_system,"The actor is a facility/equipment, not the firm directly.",deepseek-chat,ok
+577,software algorithms,product_or_system,The source sentence states 'software algorithms enable the vehicle...' without explicit firm agency.,deepseek-chat,ok
+580,we,firm,"'we' refers to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+581,we,firm,"'we' refers to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+582,we,firm,"'we' refers to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+584,We,firm,"'We' refers to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+586,we,firm,"'we' refers to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+587,we,firm,"'we' refers to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+588,we,firm,"'we' refers to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+589,Tesla,firm,'Tesla' is the focal company.,deepseek-chat,ok
+590,we,firm,"'we' refers to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+591,we,firm,"'we' refers to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+593,we,firm,"'we' refers to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+594,we,firm,"'we' refers to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+595,we,firm,"'we' refers to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+596,we,firm,"'we' refers to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+599,Model S vehicles,product_or_system,The sentence states 'Model S vehicles can charge...' without explicit firm agency.,deepseek-chat,ok
+600,our vehicles,product_or_system,"'our vehicles' is a product, and the action is performed by the vehicle's system.",deepseek-chat,ok
+601,our vehicles,product_or_system,"'our vehicles' is a product, and the action is performed by the vehicle.",deepseek-chat,ok
+602,the dealer associations,external_actor,The sentence states 'we expect the dealer associations to actively lobby...' so the actor is the dealer associations.,deepseek-chat,ok
+603,we,firm,"'we' refers to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+604,we,firm,"The source sentence uses 'we', referring to Tesla Motors, Inc.",deepseek-chat,ok
+606,we,firm,"The source sentence uses 'we', referring to Tesla Motors, Inc.",deepseek-chat,ok
+607,we,firm,"The source sentence uses 'we', referring to Tesla Motors, Inc.",deepseek-chat,ok
+608,we,firm,"The source sentence uses 'we', referring to Tesla Motors, Inc.",deepseek-chat,ok
+609,we,firm,"The source sentence uses 'we', referring to Tesla Motors, Inc.",deepseek-chat,ok
+610,we,firm,"The source sentence uses 'we', referring to Tesla Motors, Inc.",deepseek-chat,ok
+612,we,firm,"The source sentence uses 'we', referring to Tesla Motors, Inc.",deepseek-chat,ok
+614,we,firm,"The source sentence uses 'we', referring to Tesla Motors, Inc.",deepseek-chat,ok
+615,we,firm,"The source sentence uses 'we', referring to Tesla Motors, Inc.",deepseek-chat,ok
+616,we,firm,"The source sentence uses 'we', referring to Tesla Motors, Inc.",deepseek-chat,ok
+617,Tesla,firm,"The source sentence uses 'Tesla', which is the focal company.",deepseek-chat,ok
+618,Tesla,firm,"The source sentence uses 'Tesla', which is the focal company.",deepseek-chat,ok
+619,Tesla,firm,"The source sentence uses 'Tesla', which is the focal company.",deepseek-chat,ok
+620,Tesla vehicles,product_or_system,"The source sentence says 'Tesla vehicles come with...', where the vehicle is the actor, not the company explicitly.",deepseek-chat,ok
+621,Tesla vehicles,product_or_system,"The source sentence says 'Tesla vehicles come with...', where the vehicle is the actor.",deepseek-chat,ok
+622,Tesla vehicles,product_or_system,"The source sentence says 'Tesla vehicles come with...', where the vehicle is the actor.",deepseek-chat,ok
+623,we,firm,"The source sentence uses 'we', referring to Tesla Motors, Inc.",deepseek-chat,ok
+624,we,firm,"The source sentence uses 'we', referring to Tesla Motors, Inc.",deepseek-chat,ok
+625,we,firm,"The source sentence uses 'we', referring to Tesla Motors, Inc.",deepseek-chat,ok
+626,our customers,external_actor,"The source sentence says 'our customers deal directly...', so customers are the actors.",deepseek-chat,ok
+627,our customers,external_actor,"The sentence says 'our customers deal directly with our own Tesla-employed sales and service staff'. The actor is 'our customers', who are external to the company.",deepseek-chat,ok
+628,we,firm,"The sentence says 'we can leverage the substantial investments...'. 'We' refers to Tesla Motors, Inc.",deepseek-chat,ok
+629,we,firm,"The sentence says 'we have designed our investments...'. 'We' refers to Tesla Motors, Inc.",deepseek-chat,ok
+630,we,firm,"Same sentence as row 629, actor is 'we'.",deepseek-chat,ok
+631,we,firm,"The sentence says 'we have opened “galleries”...'. 'We' refers to Tesla Motors, Inc.",deepseek-chat,ok
+632,we,firm,"Same sentence as row 631, actor is 'we'.",deepseek-chat,ok
+633,we,firm,"Same sentence as row 631, actor is 'we'.",deepseek-chat,ok
+634,we,firm,"The sentence says 'we operated 208 locations...'. 'We' refers to Tesla Motors, Inc.",deepseek-chat,ok
+635,we,firm,"Same sentence as row 634, actor is 'we'.",deepseek-chat,ok
+636,we,firm,"The sentence says 'we seek to protect our intellectual property rights...'. 'We' refers to Tesla Motors, Inc.",deepseek-chat,ok
+637,Our principal marketing goals,firm,"The goals are set by the company, so the actor is the firm.",deepseek-chat,ok
+638,Model S and Model X,product_or_system,"The sentence says 'Model S and Model X are built...'. The vehicles are products, and the passive voice does not specify who builds them.",deepseek-chat,ok
+639,We,firm,"The sentence says 'We provide a four year or 50,000 mile New Vehicle Limited Warranty...'. 'We' refers to Tesla Motors, Inc.",deepseek-chat,ok
+640,we,firm,"The sentence says 'we expect to build...'. 'We' refers to Tesla Motors, Inc.",deepseek-chat,ok
+641,we,firm,"Same sentence as row 640, actor is 'we'.",deepseek-chat,ok
+642,we,firm,"Same sentence as row 640, actor is 'we'.",deepseek-chat,ok
+643,customers,external_actor,The sentence says 'customers can also charge...'. The actor is customers.,deepseek-chat,ok
+644,a variety of destinations,external_actor,"The sentence says 'destinations that have deployed our charging equipment'. The actor is the destinations, which are external entities.",deepseek-chat,ok
+645,our Supercharger network,product_or_system,"The sentence says 'customers can also charge using our Supercharger network'. The network is a system, and the actor is the network itself.",deepseek-chat,ok
+647,Our autopilot system,product_or_system,The sentence says 'Our autopilot system leverages...'. The system is a product/system.,deepseek-chat,ok
+648,Our autopilot systems,product_or_system,"The actor is 'Our autopilot systems', which is a product/system, and the sentence does not explicitly attribute agency to the firm.",deepseek-chat,ok
+649,Our battery packs,product_or_system,"The actor is 'Our battery packs', a product, and the sentence describes a property of the product without explicit firm agency.",deepseek-chat,ok
+650,Our company-owned service centers,firm,"The actor is 'Our company-owned service centers', which are controlled by the focal company, so firm.",deepseek-chat,ok
+651,Our company-owned service centers,firm,"Same as row 650, the actor is the service centers owned by the firm.",deepseek-chat,ok
+652,our technicians,external_actor,"The actor is 'our technicians', who are employees acting in their role, but the activity 'find solutions' is performed by them, not the firm directly.",deepseek-chat,ok
+653,our technicians,external_actor,"Same as row 652, technicians perform the activity.",deepseek-chat,ok
+654,Our core intellectual property,product_or_system,"The actor is 'Our core intellectual property', an intangible asset, not the firm itself.",deepseek-chat,ok
+655,"Our design and vehicle engineering capabilities, combined with the technical advancements of our powertrain system",firm,"The actor is capabilities and advancements that belong to the firm, and 'have enabled us' implies firm agency.",deepseek-chat,ok
+656,"Our design and vehicle engineering capabilities, combined with the technical advancements of our powertrain system",firm,"Same as row 655, the capabilities enable the firm to design.",deepseek-chat,ok
+657,"Our design and vehicle engineering capabilities, combined with the technical advancements of our powertrain system",firm,"Same as row 655, the capabilities enable the firm to develop.",deepseek-chat,ok
+658,"Our design and vehicle engineering capabilities, combined with the technical advancements of our powertrain system",firm,"Same as row 655, the capabilities enable the firm to design and develop.",deepseek-chat,ok
+659,Our final vehicle assembly line,product_or_system,"The actor is 'Our final vehicle assembly line', a system, and the activity 'is producing' is attributed to the line itself.",deepseek-chat,ok
+660,Our final vehicle assembly line,product_or_system,"Same as row 659, the line produces the models.",deepseek-chat,ok
+661,Our operations in Tilburg,firm,"The actor is 'Our operations in Tilburg', which are controlled by the firm.",deepseek-chat,ok
+662,Our operations in Tilburg,firm,Same as row 661.,deepseek-chat,ok
+663,Our operations in Tilburg,firm,Same as row 661.,deepseek-chat,ok
+664,Our operations in Tilburg,firm,Same as row 661.,deepseek-chat,ok
+665,Our operations in Tilburg,firm,Same as row 661.,deepseek-chat,ok
+666,Our powertrain,product_or_system,"The actor is 'Our powertrain', a product/system, and the activity 'consists of' is a property.",deepseek-chat,ok
+667,Our proprietary technology,product_or_system,"The actor is 'Our proprietary technology', a product/system, and the activity 'includes' is a property.",deepseek-chat,ok
+668,we,firm,"The subject 'we' refers to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+669,Our Supercharger network,product_or_system,The Supercharger network is a system; the sentence does not explicitly attribute agency to the firm.,deepseek-chat,ok
+670,Our Supercharger network,product_or_system,Same as above; the network is the subject.,deepseek-chat,ok
+671,Our team,firm,"'Our team' refers to Tesla's team, part of the focal company.",deepseek-chat,ok
+674,"Our Tesla Rangers, or mobile service team",firm,Tesla Rangers are employees of the focal company.,deepseek-chat,ok
+675,Our Tesla stores and galleries,product_or_system,Stores and galleries are physical locations; no explicit firm agency.,deepseek-chat,ok
+676,some of which,product_or_system,"Refers to stores and galleries, same as above.",deepseek-chat,ok
+677,Our vehicles,product_or_system,Vehicles are products; no explicit firm agency.,deepseek-chat,ok
+678,Our vehicles,product_or_system,Same as above.,deepseek-chat,ok
+679,We,firm,"'We' refers to Tesla Motors, Inc.",deepseek-chat,ok
+680,Our vehicles,product_or_system,Vehicles are products; the capability is designed into them.,deepseek-chat,ok
+681,us,firm,"'Us' refers to Tesla Motors, Inc.",deepseek-chat,ok
+682,us,firm,Same as above.,deepseek-chat,ok
+683,Our vehicles,product_or_system,Vehicles are products.,deepseek-chat,ok
+684,Our vehicles,product_or_system,Same as above.,deepseek-chat,ok
+685,Our vehicles,product_or_system,Same as above.,deepseek-chat,ok
+686,which we source globally,firm,"'We' refers to Tesla Motors, Inc.",deepseek-chat,ok
+687,Our vehicles,product_or_system,Vehicles are products.,deepseek-chat,ok
+688,"Our vehicles, electric vehicle engineering expertise, and business model",product_or_system,"These are products, expertise, and model; not explicitly firm acting.",deepseek-chat,ok
+689,We,firm,"'We' refers to Tesla Motors, Inc.",deepseek-chat,ok
+690,we,firm,"The sentence uses 'we' referring to Tesla Motors, Inc.",deepseek-chat,ok
+691,Similar algorithms,product_or_system,"Algorithms are software systems, and no firm agency is explicit.",deepseek-chat,ok
+692,Software,product_or_system,Software is a system; no explicit firm agency.,deepseek-chat,ok
+693,Supercharger stations,product_or_system,Stations are systems; no explicit firm agency.,deepseek-chat,ok
+694,Our core competencies,firm,"'Our' refers to Tesla Motors, Inc.",deepseek-chat,ok
+695,Tesla,firm,Tesla is the focal company.,deepseek-chat,ok
+697,Tesla,firm,Tesla is the focal company.,deepseek-chat,ok
+698,Tesla Powerwall,product_or_system,Product name; no explicit firm agency.,deepseek-chat,ok
+699,We,firm,"'We' refers to Tesla Motors, Inc.",deepseek-chat,ok
+700,Tesla vehicles,product_or_system,Vehicles are products; no explicit firm agency.,deepseek-chat,ok
+701,Tesla vehicles,product_or_system,Vehicles are products; no explicit firm agency.,deepseek-chat,ok
+702,The drive inverter,product_or_system,Component system; no explicit firm agency.,deepseek-chat,ok
+703,The entities through which these facilities are operated,firm,Entities are controlled operating units of Tesla.,deepseek-chat,ok
+704,The entities through which these facilities are operated,firm,Entities are controlled operating units of Tesla.,deepseek-chat,ok
+705,The Extended Service plan,product_or_system,Plan is a product; no explicit firm agency.,deepseek-chat,ok
+706,The drive inverter,product_or_system,Component system; no explicit firm agency.,deepseek-chat,ok
+707,The flow of electricity,unclear,Not an actor; it's a process.,deepseek-chat,ok
+708,We,firm,"'We' refers to Tesla Motors, Inc.",deepseek-chat,ok
+709,We,firm,"'We' refers to Tesla Motors, Inc.",deepseek-chat,ok
+710,The maintenance plans,product_or_system,Plans are products; no explicit firm agency.,deepseek-chat,ok
+711,power electronics,product_or_system,The power electronics are a system component; no explicit firm agency.,deepseek-chat,ok
+712,power electronics,product_or_system,Same as above.,deepseek-chat,ok
+713,our designs,product_or_system,Designs are products/systems; 'our' refers to Tesla but the actor is the design itself.,deepseek-chat,ok
+714,charger,product_or_system,The charger is a product/system performing the conversion.,deepseek-chat,ok
+715,charger,product_or_system,Same as above.,deepseek-chat,ok
+716,Tesla Energy product portfolio,product_or_system,Product portfolio is a collection of products; no explicit firm agency.,deepseek-chat,ok
+717,Tesla Factory,product_or_system,The factory is a facility/system; it contains operations.,deepseek-chat,ok
+718,We,firm,"'We' refers to Tesla Motors, Inc.",deepseek-chat,ok
+719,Tesla Supercharger,product_or_system,The Supercharger is a product/system.,deepseek-chat,ok
+720,Tesla Supercharger,product_or_system,Same as above.,deepseek-chat,ok
+721,customers,external_actor,Customers are external actors.,deepseek-chat,ok
+722,we,firm,'We' refers to Tesla.,deepseek-chat,ok
+723,we,firm,'We' refers to Tesla.,deepseek-chat,ok
+724,we,firm,Same as above.,deepseek-chat,ok
+725,destination charging partners,external_actor,Partners are external actors.,deepseek-chat,ok
+726,system,product_or_system,The system (hardware suite) performs the learning.,deepseek-chat,ok
+727,we,firm,'We' refers to Tesla.,deepseek-chat,ok
+728,we,firm,Same as above.,deepseek-chat,ok
+729,we,firm,Same as above.,deepseek-chat,ok
+730,we,firm,'We' refers to Tesla.,deepseek-chat,ok
+732,we,firm,"The source sentence uses 'we' referring to Tesla Motors, Inc.",deepseek-chat,ok
+733,we,firm,"Same sentence as row 732, 'we' refers to Tesla.",deepseek-chat,ok
+734,we,firm,The sentence uses 'we' referring to Tesla.,deepseek-chat,ok
+735,We,firm,The sentence uses 'We' referring to Tesla.,deepseek-chat,ok
+736,We,firm,The sentence uses 'We' referring to Tesla.,deepseek-chat,ok
+739,We,firm,The sentence uses 'We' referring to Tesla.,deepseek-chat,ok
+742,We,firm,The sentence uses 'We' referring to Tesla.,deepseek-chat,ok
+743,We,firm,The sentence uses 'We' referring to Tesla.,deepseek-chat,ok
+745,We,firm,The sentence uses 'We' referring to Tesla.,deepseek-chat,ok
+747,We,firm,The sentence uses 'We' referring to Tesla.,deepseek-chat,ok
+748,We,firm,The sentence uses 'We' referring to Tesla.,deepseek-chat,ok
+749,We,firm,The sentence uses 'We' referring to Tesla.,deepseek-chat,ok
+751,We,firm,The sentence uses 'We' referring to Tesla.,deepseek-chat,ok
+752,We,firm,The sentence uses 'We' referring to Tesla.,deepseek-chat,ok
+753,We,firm,The sentence uses 'We' referring to Tesla.,deepseek-chat,ok
+755,We,firm,The sentence uses 'We' referring to Tesla.,deepseek-chat,ok
+757,We,firm,The sentence uses 'We' referring to Tesla.,deepseek-chat,ok
+759,We,firm,The sentence uses 'We' referring to Tesla.,deepseek-chat,ok
+760,We,firm,The sentence uses 'We' referring to Tesla.,deepseek-chat,ok
+762,We,firm,The sentence uses 'We' referring to Tesla.,deepseek-chat,ok
+763,We,firm,"The source sentence uses 'We', referring to the focal company Tesla Motors, Inc.",deepseek-chat,ok
+764,We,firm,"Same as above, 'We' refers to Tesla.",deepseek-chat,ok
+765,We,firm,The activity is derived from the same sentence where 'We' is the actor.,deepseek-chat,ok
+766,We,firm,"Same source sentence, actor is 'We'.",deepseek-chat,ok
+767,which,product_or_system,"The phrase 'which we market' has 'which' as the subject, referring to the products, not the firm directly.",deepseek-chat,ok
+768,We,firm,"The activity implies 'We' as the marketer, from the same sentence.",deepseek-chat,ok
+769,We,firm,Source sentence uses 'We' as the actor.,deepseek-chat,ok
+771,We,firm,"Same source sentence, actor is 'We'.",deepseek-chat,ok
+772,We,firm,Source sentence uses 'We' as the actor.,deepseek-chat,ok
+773,We,firm,"Same source sentence, actor is 'We'.",deepseek-chat,ok
+774,We,firm,"Derived from the same sentence, actor is 'We'.",deepseek-chat,ok
+775,We,firm,"Same source sentence, actor is 'We'.",deepseek-chat,ok
+777,We,firm,Source sentence uses 'We' as the actor.,deepseek-chat,ok
+778,our vehicles,product_or_system,"The sentence states 'our vehicles compete', so the actor is the product.",deepseek-chat,ok
+779,We,firm,Source sentence uses 'We' as the actor.,deepseek-chat,ok
+782,We,firm,The activity is part of a clause where 'We' is the implied actor.,deepseek-chat,ok
+783,We,firm,Source sentence uses 'We' as the actor.,deepseek-chat,ok
+784,We,firm,Source sentence uses 'We' as the actor.,deepseek-chat,ok
+785,We,firm,Source sentence uses 'We' as the actor.,deepseek-chat,ok
+786,We,firm,"Same source sentence, actor is 'We'.",deepseek-chat,ok
+787,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc.",deepseek-chat,ok
+788,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc.",deepseek-chat,ok
+789,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc.",deepseek-chat,ok
+790,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc.",deepseek-chat,ok
+792,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc.",deepseek-chat,ok
+794,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc.",deepseek-chat,ok
+795,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc.",deepseek-chat,ok
+797,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc.",deepseek-chat,ok
+798,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc.",deepseek-chat,ok
+799,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc.",deepseek-chat,ok
+800,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc.",deepseek-chat,ok
+801,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc.",deepseek-chat,ok
+802,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc.",deepseek-chat,ok
+804,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc.",deepseek-chat,ok
+805,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc.",deepseek-chat,ok
+806,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc.",deepseek-chat,ok
+807,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc.",deepseek-chat,ok
+808,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc.",deepseek-chat,ok
+809,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc.",deepseek-chat,ok
+810,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc.",deepseek-chat,ok
+811,We,firm,"The source sentence uses 'We' referring to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+812,We,firm,"Same as above, 'We' refers to Tesla.",deepseek-chat,ok
+813,We,firm,"'We' refers to Tesla Motors, Inc.",deepseek-chat,ok
+814,We,firm,'We' refers to Tesla.,deepseek-chat,ok
+816,We,firm,'We' refers to Tesla.,deepseek-chat,ok
+817,We,firm,'We' refers to Tesla.,deepseek-chat,ok
+818,We,firm,'We' refers to Tesla.,deepseek-chat,ok
+819,We,firm,'We' refers to Tesla.,deepseek-chat,ok
+820,We,firm,'We' refers to Tesla.,deepseek-chat,ok
+821,We,firm,'We' refers to Tesla.,deepseek-chat,ok
+823,We,firm,'We' refers to Tesla.,deepseek-chat,ok
+824,We,firm,'We' refers to Tesla.,deepseek-chat,ok
+825,We,firm,'We' refers to Tesla.,deepseek-chat,ok
+827,We,firm,'We' refers to Tesla.,deepseek-chat,ok
+828,We,firm,'We' refers to Tesla.,deepseek-chat,ok
+829,We,firm,'We' refers to Tesla.,deepseek-chat,ok
+830,We,firm,'We' refers to Tesla.,deepseek-chat,ok
+831,We,firm,'We' refers to Tesla.,deepseek-chat,ok
+832,We,firm,'We' refers to Tesla.,deepseek-chat,ok
+833,We,firm,'We' refers to Tesla.,deepseek-chat,ok
+834,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+835,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+836,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+837,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+839,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+842,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+843,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+846,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+847,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+849,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+850,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+851,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+853,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+854,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+855,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+856,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+857,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+858,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+859,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+860,We,firm,"The source sentence uses 'We', referring to Tesla Motors, Inc., the focal company.",deepseek-chat,ok
+861,We,firm,"The source sentence uses 'We', which refers to the focal company Tesla Motors, Inc.",deepseek-chat,ok
+864,We,firm,"The source sentence uses 'We', referring to the focal company.",deepseek-chat,ok
+865,We,firm,"The source sentence uses 'We', referring to the focal company.",deepseek-chat,ok
+866,We,firm,"The source sentence uses 'We', referring to the focal company.",deepseek-chat,ok
+867,We,firm,"The source sentence uses 'We', referring to the focal company.",deepseek-chat,ok
+870,We,firm,"The source sentence uses 'We', referring to the focal company.",deepseek-chat,ok
+873,We,firm,"The source sentence uses 'We', referring to the focal company.",deepseek-chat,ok
+875,We,firm,"The source sentence uses 'We', referring to the focal company.",deepseek-chat,ok
+877,We,firm,"The source sentence uses 'We', referring to the focal company.",deepseek-chat,ok
+878,We,firm,"The source sentence uses 'We', referring to the focal company.",deepseek-chat,ok
+879,We,firm,"The source sentence uses 'We', referring to the focal company.",deepseek-chat,ok
+880,We,firm,"The source sentence uses 'We', referring to the focal company.",deepseek-chat,ok
+881,We,firm,"The source sentence uses 'We', referring to the focal company.",deepseek-chat,ok
+883,We,firm,"The source sentence uses 'We', referring to the focal company.",deepseek-chat,ok
+884,We,firm,"The source sentence uses 'We', referring to the focal company.",deepseek-chat,ok
+887,We,firm,"The source sentence uses 'We', referring to the focal company.",deepseek-chat,ok
+889,We,firm,"The source sentence uses 'We', referring to the focal company.",deepseek-chat,ok
+890,We,firm,"The source sentence uses 'We', referring to the focal company.",deepseek-chat,ok
+891,We,firm,"The source sentence uses 'We', referring to the focal company.",deepseek-chat,ok
+892,We,firm,"The source sentence uses 'We', referring to the focal company.",deepseek-chat,ok
+893,We,firm,"The source sentence uses 'We', referring to the focal company Tesla Motors, Inc.",deepseek-chat,ok
+895,We,firm,"The source sentence uses 'We', referring to the focal company.",deepseek-chat,ok
+896,We,firm,"The source sentence uses 'We', referring to the focal company.",deepseek-chat,ok
+897,We,firm,"The source sentence uses 'We', referring to the focal company.",deepseek-chat,ok
+899,We,firm,"The source sentence uses 'We', referring to the focal company.",deepseek-chat,ok
+901,We,firm,"The source sentence uses 'We', referring to the focal company.",deepseek-chat,ok
+902,a customer,external_actor,"The source sentence states 'a customer can schedule service', so the actor is the customer.",deepseek-chat,ok
+903,We,firm,"The source sentence uses 'We', referring to the focal company.",deepseek-chat,ok
+904,We,firm,"The source sentence uses 'We', referring to the focal company.",deepseek-chat,ok
+905,We,firm,"The source sentence uses 'We', referring to the focal company.",deepseek-chat,ok
+906,We,firm,"The source sentence uses 'We', referring to the focal company.",deepseek-chat,ok
+907,We,firm,"The source sentence uses 'We', referring to the focal company.",deepseek-chat,ok
+908,We,firm,"The source sentence uses 'We', referring to the focal company.",deepseek-chat,ok
+909,our single motor Model S,product_or_system,"The actor is the product 'Model S', not the company directly.",deepseek-chat,ok

@@ -1,0 +1,19 @@
+{
+  "method": "hdbscan",
+  "run_name": "min_cluster_size_25_min_samples_05",
+  "params": {
+    "min_cluster_size": 25,
+    "min_samples": 5
+  },
+  "input": "/Users/brian/Dropbox/Wharton/SystemAct/Empirical_explore/phrases/clean_normalize/actor_identification/activities_medium_actor_firm_only_deduplicated.csv",
+  "n_input_rows": 522,
+  "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+  "n_rows": 522,
+  "n_clusters_excluding_noise": 2,
+  "n_noise_rows": 375,
+  "silhouette_cosine_excluding_noise": 0.19746455550193787,
+  "calinski_harabasz_excluding_noise": 13.425990082012017,
+  "davies_bouldin_excluding_noise": 2.3805377466341526,
+  "min_cluster_size_observed_excluding_noise": 25,
+  "max_cluster_size_observed_excluding_noise": 122
+}

@@ -1,0 +1,14 @@
+section,category,count
+overall,input_rows,910
+overall,retained_rows,899
+overall,excluded_rows,11
+excluded_reason,single_token_phrase,5
+excluded_reason,syntactic_fragment,3
+excluded_reason,insufficient_content,3
+retained_by_firm,TSLA,374
+retained_by_firm,LUV,235
+retained_by_firm,DAL,157
+retained_by_firm,F,133
+retained_by_method,deepseek_llm_chunk_extraction,503
+retained_by_method,spacy_dependency,383
+retained_by_method,spacy_dependency|deepseek_llm_chunk_extraction,13

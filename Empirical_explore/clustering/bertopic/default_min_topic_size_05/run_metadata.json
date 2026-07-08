@@ -1,0 +1,22 @@
+{
+  "method": "bertopic",
+  "run_name": "default_min_topic_size_05",
+  "params": {
+    "min_topic_size": 5,
+    "umap_n_neighbors": 15,
+    "umap_n_components": 10,
+    "hdbscan_min_cluster_size": 5,
+    "hdbscan_min_samples": 1
+  },
+  "input": "/Users/brian/Dropbox/Wharton/SystemAct/Empirical_explore/phrases/clean_normalize/actor_identification/activities_medium_actor_firm_only_deduplicated.csv",
+  "n_input_rows": 522,
+  "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+  "n_rows": 522,
+  "n_clusters_excluding_noise": 51,
+  "n_noise_rows": 60,
+  "silhouette_cosine_excluding_noise": 0.13575509190559387,
+  "calinski_harabasz_excluding_noise": 5.638185340812936,
+  "davies_bouldin_excluding_noise": 2.2038851056997224,
+  "min_cluster_size_observed_excluding_noise": 5,
+  "max_cluster_size_observed_excluding_noise": 20
+}

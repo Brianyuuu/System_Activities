@@ -1,0 +1,4 @@
+cluster_id,cluster_label_numeric,is_noise,top_terms,cluster_size,n_firms,firms,mean_within_cluster_pairwise_cosine,representative_phrase_1
+C001,0,False,"vehicle, model, sell, product, aircraft, energy, reservation, offer, sale, battery",343,4,DAL|F|LUV|TSLA,0.20211923122406006,designing manufacturing marketing financing service line ford car truck suvs electrified vehicle lincoln luxury vehicle
+C002,1,False,"agreement, collective, bargaining, bargaining agreement, collective bargaining agreement, collective bargaining, cover, tentative, twu, twu december",5,3,DAL|F|LUV,0.5652561187744141,enter into collective bargaining agreement cover wage benefit and/or employment provision with union in argentina brazil france germany india mexico new zealand romania taiwan thailand united kingdom
+NOISE,-1,True,noise / unclustered,70,4,DAL|F|LUV|TSLA,0.09791594743728638,furnish information with sec

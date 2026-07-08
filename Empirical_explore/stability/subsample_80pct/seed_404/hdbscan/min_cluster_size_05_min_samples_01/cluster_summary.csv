@@ -1,0 +1,4 @@
+cluster_id,cluster_label_numeric,is_noise,top_terms,cluster_size,n_firms,firms,mean_within_cluster_pairwise_cosine,representative_phrase_1
+C001,0,False,"vehicle, model, aircraft, sell, offer, battery, reservation, product, airline, production",396,4,DAL|F|LUV|TSLA,0.1809259057044983,intend to continue to devote significant technology resource continue development system to improve revenue management network optimization capability replacement southwest exist domestic reservation system with comprehensive amadeus altéa reservation solution tool to improve operational management
+C002,1,False,"report, furnish, information, information sec, furnish information, furnish information sec, sec, report europe basis, europe basis, europe",6,4,DAL|F|LUV|TSLA,0.3889698088169098,furnish periodic report amendment
+NOISE,-1,True,noise / unclustered,16,4,DAL|F|LUV|TSLA,0.071470245718956,program in place

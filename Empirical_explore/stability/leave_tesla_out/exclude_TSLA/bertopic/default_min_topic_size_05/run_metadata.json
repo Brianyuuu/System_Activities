@@ -1,0 +1,17 @@
+{
+  "test_type": "leave_tesla_out",
+  "test_run": "exclude_TSLA",
+  "method": "bertopic",
+  "run_name": "default_min_topic_size_05",
+  "params": {
+    "min_topic_size": 5,
+    "umap_n_neighbors": 15,
+    "umap_n_components": 10,
+    "hdbscan_min_cluster_size": 5,
+    "hdbscan_min_samples": 1
+  },
+  "random_seed": 42,
+  "n_rows": 298,
+  "n_clusters_excluding_noise": 22,
+  "n_noise_rows": 21
+}

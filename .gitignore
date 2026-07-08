@@ -1,0 +1,37 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local notes and editor state
+.obsidian/
+*.Rhistory
+
+# Archives and compressed exports
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Reading/reference material kept locally
+*.pdf
+*.docx
+
+# Large/generated binary arrays
+*.npy
+*.npz
+
+# Pipeline audit/cache outputs that may contain raw model responses
+Empirical_explore/llm_phrases/audit/
+Empirical_explore/phrases/clean_normalize/*/audit/
+
