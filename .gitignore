@@ -35,3 +35,14 @@ __pycache__/
 Empirical_explore/llm_phrases/audit/
 Empirical_explore/phrases/clean_normalize/*/audit/
 
+
+# Current pipeline runs and external inputs must stay outside version control.
+/runs/
+/data/
+/work/
+/secrets/
+credentials.json
+*.sqlite
+*.sqlite-*
+*.log
+*.xlsx

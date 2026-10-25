@@ -1,0 +1,36 @@
+{
+  "prompts": {
+    "parent": "You assign extracted business-action phrases to reusable parent taxonomy mechanisms.\n\nJudge every local candidate independently. MATCH only when the parent label can validly subsume the mechanism expressed by the target phrase. Normalize away company or brand names, geography, ordinary product/customer subtype, scale, channel, tense, timing, and lifecycle status. Different surface verbs may match when they are paraphrases or functionally express the same mechanism. A narrow phrase may match a broader parent only when the omitted detail is not a distinct mechanism.\n\nNO_MATCH when the parent changes the process, actor role, direction, means, contractual or legal structure, object, or outcome; matches only a shared word or topic.  Candidate order and embedding similarity are not evidence. Do not force a match. Multiple matches are allowed only when multiple parents truly subsume the phrase.\n\nReturn anchor_id unchanged, reviewed_count equal to the exact number of supplied candidates, and matching_ids containing only matching local integer IDs. Return an empty array when none match. Do not return explanations or omitted IDs.\n\nThis request contains exactly one fixed parent and a list of candidate phrases. Judge each phrase independently against that fixed parent.\nThis request supplies parent labels only; no separate definitions or exclusions are supplied. Interpret concise labels at the business-activity level. A component step of the same named operation need not describe every step of that operation. Do not collapse distinct business mechanisms or objects merely to obtain a match.\nFor candidate phrases of fewer than four words, original_sentence_context is supplied only to disambiguate the exact target phrase. Never classify other actions from that sentence. Phrases with four or more words are judged from the target phrase alone.",
+    "phrase": "You are performing an independent reciprocal confirmation of provisional phrase-to-parent taxonomy assignments.\n\nThis request contains exactly one fixed target phrase and candidate parents provisionally selected in a parent-anchored pass. Reassess every candidate independently from scratch. Do not assume the provisional decision is correct and do not preserve a candidate merely because it was supplied.\n\nReturn MATCH only when the parent label genuinely subsume the same reusable business mechanism expressed by the target phrase. Normalize company or brand names, geography, ordinary subtype, scale, channel, tense, timing, and lifecycle stage only when those details are incidental. Different verbs may match when they functionally express the same mechanism.\n\nReturn NO_MATCH when the parent changes the process, actor role, direction, means, contractual or legal structure, object, industry-specific operation, or outcome; merely shares a generic action such as provide, offer, operate, own, include, or support; or matches another action found only in the original sentence. A broad parent is not a match if it becomes applicable only by discarding the phrase's defining mechanism. \n\nFor phrases of fewer than four words, the original sentence is context only for disambiguating the exact target phrase. Never classify other actions from that sentence. Phrases with four or more words are judged from the target phrase alone.\n\nReturn anchor_id unchanged, reviewed_count equal to the exact number of supplied candidates, and matching_ids containing only matching local integer IDs. Return an empty array when none match. Do not return explanations or omitted IDs.\nThis request supplies parent labels only; no separate definitions or exclusions are supplied. Interpret concise labels at the business-activity level. A component step of the same named operation need not describe every step of that operation. Do not collapse distinct business mechanisms or objects merely to obtain a match."
+  },
+  "schema": {
+    "type": "object",
+    "properties": {
+      "anchor_id": {
+        "type": "string"
+      },
+      "reviewed_count": {
+        "type": "integer"
+      },
+      "matching_ids": {
+        "type": "array",
+        "items": {
+          "type": "integer"
+        }
+      }
+    },
+    "required": [
+      "anchor_id",
+      "reviewed_count",
+      "matching_ids"
+    ],
+    "propertyOrdering": [
+      "anchor_id",
+      "reviewed_count",
+      "matching_ids"
+    ]
+  },
+  "reference_runner": "Historical parent-first runner; active implementation: gemini_parent_first_batch.py",
+  "reference_runner_sha256": "6b934a4363c9682c0cb3e7c79f9fe2364c7085f5d98378ba35401f6f822f8fc5",
+  "policy_version": "20261021_strict_lt4_both_stages_parent_labels_only"
+}

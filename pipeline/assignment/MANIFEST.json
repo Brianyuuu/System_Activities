@@ -1,0 +1,32 @@
+{
+  "release": "system_activities_20261025",
+  "sha256": {
+    "README.md": "96d6d9fa00872e808c5a43c5d83e24c392f8f97e6d33c2455c505bf9f19d0b59",
+    "code/production/audit.py": "59160a27dd72f216b4242396a7bd7f1c8b41b09aaf174c06d998776d354e6167",
+    "code/production/export_assignments.py": "87f6639f99c039e14f6e3950bbb8258b57efc8795f02550fc38fa68f8d6b45c3",
+    "code/production/gemini_candidate_policy.py": "7a656e8f60e01f4b6be02a5f5bf82e008c8bd3e7d7b37d81c869aed5b894f161",
+    "code/production/gemini_parent_first_batch.py": "c079a601aa633c623edd981a69fef92bd4fdc3510f25fd3a2091f178e8d60b1f",
+    "code/production/glm_deferred_scheduler.py": "3d279dc940fb7858953016d0951b08e714e91461398bbd890b6ab5f0adc12562",
+    "code/production/parent_first_prompts.json": "3a199e828d5757ab8964f9fec9a138e5ab43afe045b4c0e81d6ccef4c062b307",
+    "code/production/pipeline_common.py": "c2385d7811a6940a4b694e8b4a694e1f0664fe908d0115ce3aa4792db78e6ed5",
+    "code/production/pipeline_filter.py": "a169258ae16ae03b48a58ce762aa84cef1498f545dd8e2523fb54a3b61b4ca03",
+    "code/production/pipeline_recall.py": "3eb23029d478dd27f669cdff3b8a3af56ae56fe90476561000029bbf40dd88a5",
+    "code/production/run_glm_only.py": "ccf955357f64a5504a7db56ba7e4f9f0a39f4987f2d7a491af872abaff10e34e",
+    "code/production/run_reciprocal.py": "3c4c7352fadd505c9df823cf15ca55873e84fad344364ab8c85b070f9b26bf5a",
+    "code/production/validate_glm_complete.py": "de01a0d61ebe3cc7f8da973a2ab937875c0d6d493fa0f1026aff8f519699aa82",
+    "examples/phrases.csv": "c5307a876eae321d5512208c0647eaf801e9e54440ce1e013a0bde1f4d618900",
+    "examples/taxonomy.csv": "625b5ebea8865267f9b418a155208664011bec276e3eeea31931510d42784176",
+    "inputs/frozen/final_taxonomy_enrich.csv": "0b132b5b3569088df3756c4633d048723054dbacada4c25ac6c934887c72ec61",
+    "prompts/glm_high_recall.txt": "9a60c65fd369c3805bb78185a2979136aa6f4debaba13b8f5940addb65a26799",
+    "prompts/parent_first_prompts.json": "3a199e828d5757ab8964f9fec9a138e5ab43afe045b4c0e81d6ccef4c062b307",
+    "requirements.txt": "3e485f57a4cbc009b083848848262d2c521d2bf47a031e9b7f18f6af2b763239",
+    "scripts/glm_smoke.py": "c66bdce4c9a077be227d20f7bf688f9732bbf8986da4146d25cd285a5cf7866b",
+    "scripts/make_sbatch.py": "e90e363d7894e702d42af788a234bcc86846e57fc25a3f60546dd91cec61f945",
+    "scripts/prepare_run.py": "589520ac63fdb30b44508eb0170efadadefbf411fd3d0c703a86d708665b3be8",
+    "scripts/run_stage.sh": "206d3e209a28a73beecb1c84d7d06c6ac3cd40f75b8469de8ed8f5d6140bd6af",
+    "scripts/verify_bundle.py": "575249de9ccb7ada16f242e37321e9d7a183dea88569a7a5c4f0474c357a1164",
+    "templates/credentials.example.json": "658cecb3caf70e1759e2c32036bb0ae815d57a3591ba00e41cc042c75b8118e3",
+    "tests/test_input_adapter.py": "c9da4dd25021a0db8fa79db2a2a7e6b25e225d17451a5cc991f8c11b47fff956",
+    "tests/test_portable_pipeline.py": "0e4fff299de8734f1a94d8c8c6f6de2ffc47fb7148d57b0f7c02591206651b15"
+  }
+}

@@ -1,0 +1,2 @@
+# Production server version observed on 2026-10-22; Python 3.11+.
+numpy==2.4.6

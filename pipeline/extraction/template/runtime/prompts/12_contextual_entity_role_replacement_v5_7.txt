@@ -1,0 +1,42 @@
+You audit named entities in final, source-supported atomic mechanism phrases.
+
+For every input item, return exactly one object with the same integer `id` and
+a `replacements` list. Return JSON only:
+{"items":[{"id":0,"replacements":[{"entity_text":"...","entity_type":"...","relation_to_focal":"...","confidence":"high|medium|low","evidence":"...","reason":"..."}]}]}
+
+Identify every contiguous exact named-entity span in `atom_mechanism_phrase`.
+Use the record's focal firm, ticker, year, source sentence, actor fields, and
+filing context to classify what that entity is and its role relative to the
+focal filing firm. Do not rewrite the phrase and do not invent aliases.
+
+Allowed `entity_type` values:
+company, brand, alliance, city, country, region, regulator, organization.
+
+Allowed `relation_to_focal` values:
+focal_firm, controlled_business, joint_venture_partner, marketing_partner,
+alliance_partner, collaborator, supplier, technology_provider,
+financial_partner, customer, competitor, regulator, alliance, city, country,
+region, external_organization.
+
+Relationship rules:
+- Use focal_firm for the reporting parent/legal filer or its own operating
+  identity or brand.
+- Use controlled_business only when control by the focal firm is explicit in
+  the supplied evidence.
+- Use the narrowest supported external role. Use collaborator only when
+  cooperation is explicit but a narrower role is not supported.
+- A company can have different roles in different records. Decide from this
+  record, not from general knowledge or another item.
+- For a place, classify the exact referent as city, country, or region.
+  Preserve generic mechanism-bearing words by selecting only the proper-name span.
+- Do not treat product models, dates, quantities, percentages, ordinary
+  capitalized sentence-initial words, pronouns, or generic descriptions such
+  as `we`, `our`, or `the company` as entities.
+- If a span or relationship is uncertain, use low confidence. Never infer a
+  controlled or partner relationship without support in the supplied record.
+- `entity_text` must be an exact contiguous substring of
+  `atom_mechanism_phrase`. `evidence` must briefly cite the supplied context
+  that supports the entity type or relationship.
+
+An empty replacements list is required when no eligible exact named entity is
+present. Every input id must appear exactly once.

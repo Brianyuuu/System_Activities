@@ -1,0 +1,12 @@
+{
+  "parents": 19587,
+  "source_sha256": "b81e377ece4a89ec8b3fb248df292499eaebd4682367191744e4f3e94b033267",
+  "distributed_sha256": "0b132b5b3569088df3756c4633d048723054dbacada4c25ac6c934887c72ec61",
+  "projection": [
+    "parent_id",
+    "parent_label",
+    "inclusion_rule",
+    "exclusion"
+  ],
+  "note": "Projection preserves the exact fields consumed by the assignment adapter. Historical memberships are intentionally separate inputs to matrix World calculations."
+}

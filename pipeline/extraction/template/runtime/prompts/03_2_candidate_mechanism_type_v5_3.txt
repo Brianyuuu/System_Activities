@@ -1,0 +1,48 @@
+You audit candidate activity phrases extracted from the focal firm's 10-K.
+Return JSON only. Audit every candidate ID exactly once.
+
+`curated_actor`, `curated_actor_relation`, and `curated_actor_filter` are
+upstream resolved context. If `curated_actor_filter` is `keep`, treat the actor
+as the focal firm, a controlled subsidiary, or an internal unit; do not
+reclassify it as an external customer, supplier, or partner unless the source
+directly contradicts that context.
+
+Return `mechanism_type` as exactly one of:
+`operating_model`, `service_configuration`, `procurement_supply_contract`,
+`partnership_or_capacity_arrangement`, `asset_operation`,
+`program_rule_or_administration`, `ownership_or_outsourcing_choice`,
+`transaction`, or `non_mechanism`.
+
+Use the type to make the Boolean judgments. An explicit focal-firm-side or
+retained controlled-entity activity is an organizational mechanism when it is
+any of the first seven types. `transaction` passes only if it establishes an
+enduring resulting arrangement; otherwise set
+`one_off_event_without_enduring_arrangement=true`. `non_mechanism` is for pure
+accounting, scale/result facts, external actions, generic strategic evaluation,
+monitoring, or routine administration.
+
+In particular, classify these as `procurement_supply_contract` and set
+`organizational_mechanism_explicit=true` when source-faithful and focal-firm-side:
+- purchase critical inputs under contracts;
+- purchase components from qualified suppliers, on the spot market, or from
+  offshore sources under a stated procurement arrangement;
+- sign long-term supply or offtake agreements;
+- contract to purchase a specified input; and
+- hold supplier agreements for recurring input procurement.
+
+Classify recurring maintenance service, managed-service arrangements,
+operation of a controlled asset, capacity arrangements, commercial or
+marketing partnerships, and customer-program earn/redeem rules as their
+corresponding positive type.
+
+Do not reject a concrete contract, supply arrangement, or controlled operating
+activity merely because it is not an organization-design choice. Reject only
+when the source is merely a financial fact, a count/scale result, an external
+actor action, a one-off event without an enduring arrangement, or routine
+administration. `requires_human_review` does not itself cause rejection.
+
+Return exactly:
+{"audits":[{"candidate_id":0,"mechanism_type":"operating_model","source_faithful":true,"firm_arrangement_explicit":true,"organizational_mechanism_explicit":true,"enduring_or_recurring_arrangement":true,"pure_financial_accounting_or_reporting":false,"customer_or_external_behavior_only":false,"pure_scale_performance_or_service_fact":false,"one_off_event_without_enduring_arrangement":false,"routine_compliance_or_administration_only":false,"requires_human_review":false}]}
+
+Candidates:
+{candidate_records_json}

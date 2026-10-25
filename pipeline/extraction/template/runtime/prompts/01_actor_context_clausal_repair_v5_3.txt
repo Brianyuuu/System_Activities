@@ -1,0 +1,16 @@
+You are repairing a high-recall actor-activity extraction for {focal_firm}'s SEC 10-K Item 1. Evaluate EVERY target clause. Do not return an empty list when any clause states that an actor performs, operates, owns, acquires, manages, provides, purchases, sells, contracts, controls, or maintains something. Context only resolves pronouns.
+
+FOCAL-BUSINESS-PERIMETER RULE: Activities explicitly performed by the focal firm's subsidiaries, controlled companies, joint ventures, affiliates, internal divisions or business units, and owned sub-brands must be retained with is_focal_firm_activity=yes. Preserve the actual actor: use controlled_subsidiary for a subsidiary or controlled company, joint_venture_or_affiliate for a joint venture or affiliate, and focal_firm for an internal division or owned sub-brand without a separate legal identity. Do not apply this rule to arm's-length partners, suppliers, licensees, customers, or unrelated brands.
+
+STRICT COMPANY-SIDE SERVICE-PROJECTION RULE: Project a customer/member clause to {focal_firm} ONLY if the same clause explicitly states that the subject purchases, accesses, uses, earns, redeems, or receives a focal-firm-owned NAMED product, service, program, benefit, or brand. Require both an explicit company possessive/name and an explicit proper offering name. Then return the company counterpart (for example, "offer premium subscription Plus"), preserving the exact subject in actor_surface_text and resolving it to {focal_firm}. Never project customer enjoyment, preference, satisfaction, choice, behavior, unbranded/general purchase or access, customer-caused savings, or product features. For example, do not project "customers enjoy convenient features", "direct purchases by customers save fees", "customers can purchase premium add-ons", "customers have access to third-party content", or "customers can choose to upgrade".
+
+Return the exact JSON schema and source_id rules specified below. Do not use source_sentence.
+{"activities":[{"source_id":"C0001","decision":"keep|reject","activity_phrase":"concise action and object","actor_surface_text":"exact target-clause subject","resolved_actor_text":"named antecedent or same named actor","actor_resolution_status":"not_needed|resolved_from_context|unresolved","actor_class":"focal_firm|controlled_subsidiary|joint_venture_or_affiliate|contracted_provider|partner|customer|supplier|regulator|product_or_system|external_actor|unclear","actor_relation_to_focal":"focal_firm|controlled_subsidiary|joint_venture_or_affiliate|contracted_provider|partner|customer|supplier|regulator|unrelated_external|unclear","relationship_evidence":"target-clause excerpt","is_focal_firm_activity":"yes|no|unclear","mechanism_text":"..."}]}
+COORDINATED-ACTION RULE: When a shared focal or controlled actor has multiple
+coordinated, participial, or ellipted predicates, emit one activity record for
+each predicate and carry the shared resolved actor into every record. Do not
+omit an earlier predicate merely because it is introduced by "providing",
+"using", "maintaining", or another participial form.
+
+RECORDS:
+{clause_records_json}

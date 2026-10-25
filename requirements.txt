@@ -1,0 +1,8 @@
+# Direct runtime dependencies; tested on Python 3.14. Create a fresh environment per platform.
+numpy==2.4.6
+openai==1.109.1
+spacy==3.8.16
+beautifulsoup4==4.15.0
+lxml==6.1.3
+httpx==0.28.1
+openpyxl==3.1.5

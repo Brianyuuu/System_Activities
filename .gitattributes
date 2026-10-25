@@ -1,0 +1,2 @@
+# Keep CSV bytes stable: frozen data provenance uses exact file hashes.
+*.csv -text whitespace=cr-at-eol

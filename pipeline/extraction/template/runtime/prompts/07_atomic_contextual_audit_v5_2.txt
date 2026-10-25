@@ -1,0 +1,112 @@
+SYSTEM PROMPT
+
+You audit atomic business-mechanism phrases extracted from SEC 10-K Item 1.
+Return valid JSON only. Do not rewrite or add actions.
+
+USER PROMPT
+
+For every record, return exactly one object with its candidate_id and the ten
+Boolean fields below. Use JSON booleans only.
+
+Each record contains three different text fields:
+
+- `core_mechanism_phrase`: the exact atomic proposition to classify. This is
+  the only text that may become a retained mechanism phrase.
+- `source_sentence`: evidence that validates the proposition and identifies its
+  actor.
+- `parent_activity_context`: the pre-split activity phrase. Use it only to
+  resolve pronouns, ellipsis, or the actor. Do not import an additional
+  mechanism, contract, or design choice from it into the core phrase.
+
+`curated_actor`, `curated_actor_relation`, and `curated_actor_filter` are
+upstream resolved context. If `curated_actor_filter` is `keep`, the actor is the
+focal firm, a controlled subsidiary, or an internal unit unless the source
+directly contradicts it.
+
+The target is a business mechanism design: a specific operating choice, service
+configuration, program rule, contract, ownership/outsourcing choice, channel,
+asset-operation arrangement, or coordination model. A general verb alone is not
+enough.
+
+For `operate`, `provide`, `maintain`, `offer`, `support`, or `use`, keep the
+core phrase only when the core phrase itself gives a specific business
+configuration or rule. It must not rely on a qualifying mechanism present only
+in `source_sentence` or `parent_activity_context`.
+
+Apply these contrasts exactly:
+
+KEEP: `provide nonstop, hourly support between Facility A and Facility B`.
+It defines a continuing service configuration and commitment.
+
+REJECT: `increase the number of services in certain locations`.
+It reports a scale increase, not how the business is organized.
+
+REJECT: `increase to 144 daily service instances by October`.
+It is a numeric target and timeline, not a mechanism.
+
+KEEP: `operate services under the firm's brand`; `provide maintenance and
+engineering support`; `provide managed services, asset management, and hourly
+membership programs`; `allow members to earn credits for program rewards`.
+Each states a defined operating, service, or program configuration in the core
+phrase itself.
+
+REJECT: `provide standard services`; `monitor competitive developments`;
+`evaluate strategic alternatives`; `conduct internal analysis`.
+They are generic business actions with no mechanism design.
+
+For `operating_scale_or_status_fact`, set it true for bare counts, frequency
+changes, schedules, geographic coverage, facility details, capacity,
+utilization, asset counts, and catalogues of existing services. Set it false
+for a continuing service configuration like the nonstop, hourly support
+example, or for a phrase stating a contract, program rule,
+ownership/outsourcing choice, channel, network design, or asset-operation
+arrangement.
+
+IMPLEMENTATION-OF-ENDURING-SERVICE RULE: A completed launch, debut,
+introduction, or rollout is not automatically a one-off event. When the source
+shows that it establishes a named recurring service, product, program, or
+operating configuration with a concrete durable design, retain it:
+`mechanism_present=true`, `repeatable_or_durable=true`, and
+`one_off_or_timed_event=false`. A date, launch market, or initially limited
+service scope can describe rollout scope rather than temporary status. Reject a
+completed event only when the evidence makes the activity itself temporary,
+trial-only, promotional, or otherwise fails to establish an ongoing offering.
+Forward-looking expectations remain unexecuted and should not be retained as a
+completed company activity. For example, "We debuted this new premium service
+with a dedicated subscription tier" establishes an enduring service
+configuration rather than a one-off event.
+
+Definitions:
+
+1. `source_supports_phrase`: the source sentence explicitly supports the core phrase.
+2. `focal_firm_explicit`: the focal firm, retained subsidiary, or internal unit performs or controls it.
+3. `concrete_action`: the source states an actual action by that actor.
+4. `mechanism_present`: the core phrase itself states the specific mechanism design defined above.
+5. `repeatable_or_durable`: it is continuing, recurrent, or an enduring arrangement.
+6. `one_off_or_timed_event`: it is principally an isolated completed event or a dated/timed implementation.
+7. `static_fact_or_feature`: it is mainly a status, count, rank, revenue, bare feature, or existence statement.
+8. `customer_or_external_actor`: the essential action is performed by an external actor.
+9. `ordinary_support_or_hr`: it is routine HR, compliance, or generic administration without mechanism design.
+10. `operating_scale_or_status_fact`: it is a bare operational scale/status detail as defined above.
+
+Return exactly:
+{
+  "audits": [
+    {
+      "candidate_id": 0,
+      "source_supports_phrase": true,
+      "focal_firm_explicit": true,
+      "concrete_action": true,
+      "mechanism_present": true,
+      "repeatable_or_durable": true,
+      "one_off_or_timed_event": false,
+      "static_fact_or_feature": false,
+      "customer_or_external_actor": false,
+      "ordinary_support_or_hr": false,
+      "operating_scale_or_status_fact": false
+    }
+  ]
+}
+
+RECORDS:
+{candidate_records_json}
