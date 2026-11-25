@@ -1,0 +1,130 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.8in]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{adjustbox}
+\usepackage{amsmath}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\IfFileExists{pdflscape.sty}{\usepackage{pdflscape}}{\usepackage{lscape}}
+\usepackage{hyperref}
+\graphicspath{{figures/}}
+
+\title{Corporate Events and Business Positioning, Controlling for Item 1 Length}
+\author{}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\noindent Business positioning is measured by $n_{\mathrm{parent}}$, the number of distinct parent
+activities a firm reports in year $t$. Parent flows are \emph{parents entering} (parents in $t$ not
+in $t-1$) and \emph{parents exiting} (parents in $t-1$ not in $t$); flows are missing in a firm's
+first observed year and when year $t-1$ is not observed. Enter and exit shares divide the flow by
+$n_{\mathrm{parent}}$ in $t$. The difference-in-differences and event-study regressions add $\ln(\text{Item 1 words})$ as a control, since
+longer business descriptions mechanically list more activities. This control is used in the
+difference-in-differences and event-study sections; the descriptive figures and the final
+section (uniqueness and financial performance) do not use it.
+
+\section{Descriptive Evidence}
+
+Figure~\ref{fig:desc} plots the raw average of $n_{\mathrm{parent}}$ for treated firms in event
+time $-6$ to $+6$ around each event. Event time $0$ is the event year. No controls or fixed
+effects are applied (these figures do not use the Item 1 control).
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{0.32\textwidth}\centering
+  \includegraphics[width=\linewidth]{descriptive/mean_n_parent_ceo_change_dummy_treated.png}
+  {\small (a) CEO Change}
+\end{minipage}\hfill
+\begin{minipage}{0.32\textwidth}\centering
+  \includegraphics[width=\linewidth]{descriptive/mean_n_parent_ma_acquirer_dummy_treated.png}
+  {\small (b) M\&A Acquirer}
+\end{minipage}\hfill
+\begin{minipage}{0.32\textwidth}\centering
+  \includegraphics[width=\linewidth]{descriptive/mean_n_parent_ma_acquirer_large_dummy_treated.png}
+  {\small (c) Large M\&A Acquirer}
+\end{minipage}
+
+\vspace{6pt}
+\begin{minipage}{0.32\textwidth}\centering
+  \includegraphics[width=\linewidth]{descriptive/mean_n_parent_shareholder_activism_dummy_treated.png}
+  {\small (d) Shareholder Activism}
+\end{minipage}\hfill
+\begin{minipage}{0.32\textwidth}\centering
+  \includegraphics[width=\linewidth]{descriptive/mean_n_parent_divest_sale_treated.png}
+  {\small (e) Divestiture}
+\end{minipage}\hfill
+\begin{minipage}{0.32\textwidth}\centering
+  \includegraphics[width=\linewidth]{descriptive/mean_n_parent_divest_sale_large_treated.png}
+  {\small (f) Large Divestiture}
+\end{minipage}
+\caption{Average $n_{\mathrm{parent}}$ of treated firms around the event (raw means).}
+\label{fig:desc}
+\end{figure}
+
+\section{Corporate Events: Stacked Pre/Post Difference-in-Differences}
+
+For every event (cohort) $c$ of firm $i$ we build a window from $-3$ to $+3$ years around the
+event year, bounded by the firm's neighbouring events, and stack the cohorts. Control firm-years
+come from firms that never experience the event, matched to each cohort by calendar year.
+Each cell of Table~\ref{tab:did_item1} is a separate regression; for every event the first column
+includes the Item 1 control and the second omits it:
+\[
+  y_{ict} = \beta \, \mathrm{Post}_{ict} \times \mathrm{Treated}_{ic} + \delta \ln(\text{Item 1 words}_{ict}) + \alpha_{ic} + \gamma_{tc} + \varepsilon_{ict},
+\]
+with firm $\times$ cohort and year $\times$ cohort fixed effects and standard errors clustered by firm.
+
+\input{tables/did_main_win3_item1}
+
+\section{Event Studies}
+
+Event studies use a $\pm6$-year window with event time $-1$ omitted, the same stacked design and
+the same Item 1 control. Bars are 95\% confidence intervals with firm-clustered standard errors;
+panel subtitles report the number of treated events and the $p$-values of joint tests that the
+pre-event ($-6$ to $-2$) and post-event ($0$ to $+6$) coefficients are zero.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{event_study/es_ceo_change_dummy_flows_combined.png}
+\caption{Event study: CEO Change, with $\ln$(Item 1 words) control.}
+\label{fig:es_ceo_change_dummy}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{event_study/es_ma_acquirer_large_dummy_flows_combined.png}
+\caption{Event study: Large M\&A Acquirer, with $\ln$(Item 1 words) control.}
+\label{fig:es_ma_acquirer_large_dummy}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{event_study/es_shareholder_activism_dummy_flows_combined.png}
+\caption{Event study: Shareholder Activism, with $\ln$(Item 1 words) control.}
+\label{fig:es_shareholder_activism_dummy}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{event_study/es_divest_sale_flows_combined.png}
+\caption{Event study: Divestiture, with $\ln$(Item 1 words) control.}
+\label{fig:es_divest_sale}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{event_study/es_strategy_news_flows_combined.png}
+\caption{Event study: Strategy News, with $\ln$(Item 1 words) control.}
+\label{fig:es_strategy_news}
+\end{figure}
+
+\section{Uniqueness and Financial Performance}
+
+Table~\ref{tab:dist_fin} relates financial ratios in year $t$ and $t+1$ to how far a firm's
+business description lies from its closest peers in the same year. \texttt{dist\_top5} and
+\texttt{dist\_top10} are the average embedding distances between the firm's Item 1 text and its
+5 and 10 closest peers (larger values mean a more distinctive description). The regressions are plain
+firm-year panel regressions (no stacking) with firm and year fixed effects and no other controls;
+standard errors are clustered by firm.
+
+\input{tables/financial_dist}
+\end{document}

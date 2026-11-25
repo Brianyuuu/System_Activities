@@ -1,0 +1,44 @@
+\begin{landscape}
+\begin{table}[H]
+\centering
+\caption{Uniqueness and Financial Performance}
+\label{tab:dist_fin}
+{\small Panel regressions with firm and year fixed effects}\\[4pt]
+\begin{adjustbox}{max width=\linewidth, max totalheight=0.62\textheight}
+\begin{tabular}{lcccccccccc}
+\toprule
+ & \multicolumn{2}{c}{ROA} & \multicolumn{2}{c}{ROIC} & \multicolumn{2}{c}{Operating margin} & \multicolumn{2}{c}{Net margin} & \multicolumn{2}{c}{Sales growth} \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7} \cmidrule(lr){8-9} \cmidrule(lr){10-11}
+ & $t$ & $t+1$ & $t$ & $t+1$ & $t$ & $t+1$ & $t$ & $t+1$ & $t$ & $t+1$ \\
+ & (1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) & (10) \\
+\midrule
+\multicolumn{11}{l}{\textit{Panel A. $x$ = Distance to 5 closest peers (\texttt{dist\_top5}); one SD $\approx$ 0.06}} \\[2pt]
+Coefficient on $x$ & 0.0027 & 0.0438 & 0.0713 & 0.0619 & 0.0573 & 0.0911 & 0.0466 & 0.0849 & $-$0.0034 & 0.2054$^{**}$ \\
+ & (0.0225) & (0.0227) & (0.0468) & (0.0494) & (0.0683) & (0.0778) & (0.0782) & (0.0880) & (0.0614) & (0.0639) \\
+One-SD effect (pp) & 0.02 & 0.25 & 0.41 & 0.35 & 0.33 & 0.52 & 0.27 & 0.48 & $-$0.02 & 1.16 \\
+Mean of $y$ (\%) & 3.40 & 3.52 & 18.55 & 18.47 & 10.21 & 10.63 & 1.21 & 1.70 & 13.59 & 12.38 \\
+Observations & 40,394 & 37,296 & 32,223 & 29,851 & 40,280 & 37,184 & 40,283 & 37,184 & 40,205 & 37,150 \\
+Firms & 2,403 & 2,309 & 2,177 & 2,089 & 2,400 & 2,306 & 2,401 & 2,306 & 2,397 & 2,304 \\
+Within $R^2$ & 0.0000 & 0.0003 & 0.0002 & 0.0001 & 0.0001 & 0.0001 & 0.0000 & 0.0001 & 0.0000 & 0.0005 \\
+\cmidrule(l){1-11}
+\addlinespace[4pt]
+\multicolumn{11}{l}{\textit{Panel B. $x$ = Distance to 10 closest peers (\texttt{dist\_top10}); one SD $\approx$ 0.06}} \\[2pt]
+Coefficient on $x$ & 0.0104 & 0.0525$^{*}$ & 0.0869 & 0.0803 & 0.0706 & 0.1045 & 0.0595 & 0.0915 & 0.0189 & 0.2430$^{***}$ \\
+ & (0.0219) & (0.0224) & (0.0460) & (0.0481) & (0.0690) & (0.0782) & (0.0780) & (0.0878) & (0.0611) & (0.0646) \\
+One-SD effect (pp) & 0.06 & 0.32 & 0.53 & 0.48 & 0.43 & 0.63 & 0.36 & 0.55 & 0.11 & 1.46 \\
+Mean of $y$ (\%) & 3.40 & 3.52 & 18.55 & 18.47 & 10.21 & 10.63 & 1.21 & 1.70 & 13.59 & 12.38 \\
+Observations & 40,394 & 37,296 & 32,223 & 29,851 & 40,280 & 37,184 & 40,283 & 37,184 & 40,205 & 37,150 \\
+Firms & 2,403 & 2,309 & 2,177 & 2,089 & 2,400 & 2,306 & 2,401 & 2,306 & 2,397 & 2,304 \\
+Within $R^2$ & 0.0000 & 0.0004 & 0.0003 & 0.0002 & 0.0001 & 0.0002 & 0.0000 & 0.0001 & 0.0000 & 0.0008 \\
+\midrule
+Firm fixed effects & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes \\
+Year fixed effects & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\\[4pt]
+\begin{minipage}{\linewidth}\footnotesize
+\textit{Notes.} Each cell is a separate regression of the financial ratio in year $t$ or $t+1$ on a peer-distance measure in year $t$, with firm and year fixed effects and no other controls. Coefficients are raw (ratios in decimals; 0.01 = 1\%). Standard errors clustered by firm are in parentheses. One-SD effect is the coefficient times the standard deviation of the distance measure in the estimation sample, in percentage points of the ratio. Financial ratios are winsorized at the pooled 1st and 99th percentiles; $t+1$ outcomes are missing when year $t+1$ is not observed. $^{*}p<0.05$, $^{**}p<0.01$, $^{***}p<0.001$.
+\end{minipage}
+\end{table}
+\end{landscape}

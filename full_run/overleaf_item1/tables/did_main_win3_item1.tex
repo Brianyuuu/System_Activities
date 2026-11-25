@@ -1,0 +1,70 @@
+\begin{landscape}
+\begin{table}[H]
+\centering
+\caption{Stacked Pre/Post Difference-in-Differences Estimates}
+\label{tab:did_item1}
+{\small Event window: $-3$ to $+3$ years; with and without the $\ln$(Item 1 words) control}\\[4pt]
+\begin{adjustbox}{max width=\linewidth, max totalheight=0.62\textheight}
+\begin{tabular}{lcccccccc}
+\toprule
+ & \multicolumn{2}{c}{CEO Change} & \multicolumn{2}{c}{Large M\&A Acquirer} & \multicolumn{2}{c}{Shareholder Activism} & \multicolumn{2}{c}{Divestiture} \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7} \cmidrule(lr){8-9}
+ & (1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) \\
+\midrule
+\multicolumn{9}{l}{\textit{Panel A. Dependent variable: $n_{\mathrm{parent}}$}} \\[2pt]
+Post $\times$ treated & $-$5.670$^{**}$ & $-$5.747$^{**}$ & 3.765$^{**}$ & 8.464$^{***}$ & $-$11.927$^{***}$ & $-$13.765$^{***}$ & $-$5.403$^{**}$ & $-$5.974$^{**}$ \\
+ & (1.765) & (2.060) & (1.293) & (1.539) & (2.108) & (2.638) & (1.704) & (2.058) \\
+Pre-event treated mean & 262.746 & 262.746 & 259.688 & 259.688 & 285.331 & 285.331 & 268.739 & 268.739 \\
+Observations & 51,003 & 51,003 & 98,127 & 98,127 & 173,667 & 173,667 & 178,953 & 178,953 \\
+Treated event-year observations & 4,423 & 4,423 & 3,141 & 3,141 & 887 & 887 & 1,262 & 1,262 \\
+Within $R^2$ & 0.2583 & 0.0011 & 0.2643 & 0.0014 & 0.2657 & 0.0005 & 0.2607 & 0.0002 \\
+\cmidrule(l){1-9}
+\addlinespace[4pt]
+\multicolumn{9}{l}{\textit{Panel B. Dependent variable: Parents entering}} \\[2pt]
+Post $\times$ treated & 2.768$^{***}$ & 2.686$^{***}$ & 5.976$^{***}$ & 7.373$^{***}$ & $-$2.746$^{**}$ & $-$3.455$^{***}$ & $-$0.144 & $-$0.265 \\
+ & (0.704) & (0.786) & (0.586) & (0.648) & (0.986) & (1.033) & (0.827) & (0.883) \\
+Pre-event treated mean & 45.878 & 45.878 & 46.198 & 46.198 & 48.208 & 48.208 & 50.396 & 50.396 \\
+Observations & 45,736 & 45,736 & 89,023 & 89,023 & 163,129 & 163,129 & 164,020 & 164,020 \\
+Treated event-year observations & 3,973 & 3,973 & 2,851 & 2,851 & 862 & 862 & 1,187 & 1,187 \\
+Within $R^2$ & 0.0493 & 0.0005 & 0.0550 & 0.0024 & 0.0490 & 0.0001 & 0.0476 & 0.0000 \\
+\cmidrule(l){1-9}
+\addlinespace[4pt]
+\multicolumn{9}{l}{\textit{Panel C. Dependent variable: Parents exiting}} \\[2pt]
+Post $\times$ treated & 1.411 & 1.451 & 3.731$^{***}$ & 3.091$^{***}$ & 1.823 & 2.133 & $-$0.550 & $-$0.492 \\
+ & (0.806) & (0.770) & (0.691) & (0.658) & (1.412) & (1.399) & (0.949) & (0.906) \\
+Pre-event treated mean & 42.294 & 42.294 & 42.871 & 42.871 & 46.177 & 46.177 & 47.011 & 47.011 \\
+Observations & 45,736 & 45,736 & 89,023 & 89,023 & 163,129 & 163,129 & 164,020 & 164,020 \\
+Treated event-year observations & 3,973 & 3,973 & 2,851 & 2,851 & 862 & 862 & 1,187 & 1,187 \\
+Within $R^2$ & 0.0096 & 0.0001 & 0.0093 & 0.0003 & 0.0079 & 0.0000 & 0.0093 & 0.0000 \\
+\cmidrule(l){1-9}
+\addlinespace[4pt]
+\multicolumn{9}{l}{\textit{Panel D. Dependent variable: Enter share (enter / $n_{\mathrm{parent}}$)}} \\[2pt]
+Post $\times$ treated & 0.0118$^{***}$ & 0.0117$^{***}$ & 0.0182$^{***}$ & 0.0206$^{***}$ & $-$0.0022 & $-$0.0033 & 0.0001 & $-$0.0001 \\
+ & (0.0028) & (0.0028) & (0.0024) & (0.0024) & (0.0041) & (0.0041) & (0.0032) & (0.0032) \\
+Pre-event treated mean & 0.1847 & 0.1847 & 0.1864 & 0.1864 & 0.1806 & 0.1806 & 0.1963 & 0.1963 \\
+Observations & 45,736 & 45,736 & 89,023 & 89,023 & 163,129 & 163,129 & 164,020 & 164,020 \\
+Treated event-year observations & 3,973 & 3,973 & 2,851 & 2,851 & 862 & 862 & 1,187 & 1,187 \\
+Within $R^2$ & 0.0079 & 0.0007 & 0.0110 & 0.0012 & 0.0080 & 0.0000 & 0.0082 & 0.0000 \\
+\cmidrule(l){1-9}
+\addlinespace[4pt]
+\multicolumn{9}{l}{\textit{Panel E. Dependent variable: Exit share (exit / $n_{\mathrm{parent}}$)}} \\[2pt]
+Post $\times$ treated & 0.0058 & 0.0064 & 0.0246$^{**}$ & 0.0102 & 0.0308$^{**}$ & 0.0373$^{***}$ & $-$0.0053 & $-$0.0042 \\
+ & (0.0090) & (0.0089) & (0.0087) & (0.0080) & (0.0110) & (0.0112) & (0.0083) & (0.0079) \\
+Pre-event treated mean & 0.1954 & 0.1954 & 0.1913 & 0.1913 & 0.1884 & 0.1884 & 0.2112 & 0.2112 \\
+Observations & 45,736 & 45,736 & 89,023 & 89,023 & 163,129 & 163,129 & 164,020 & 164,020 \\
+Treated event-year observations & 3,973 & 3,973 & 2,851 & 2,851 & 862 & 862 & 1,187 & 1,187 \\
+Within $R^2$ & 0.0240 & 0.0000 & 0.0336 & 0.0000 & 0.0277 & 0.0001 & 0.0223 & 0.0000 \\
+\midrule
+Item 1 Words Control & Yes & No & Yes & No & Yes & No & Yes & No \\
+Firm $\times$ cohort fixed effects & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes \\
+Year $\times$ cohort fixed effects & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes \\
+Firm clusters (Panel A) & 2,405 & 2,405 & 2,405 & 2,405 & 2,417 & 2,417 & 2,418 & 2,418 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\\[4pt]
+\begin{minipage}{\linewidth}\footnotesize
+\textit{Notes.} Each cell is a separate stacked regression of the dependent variable on Post $\times$ treated, which equals one for treated firm-years in event years $0$ to $+w$ and zero otherwise; the pre-period is event years $-w$ to $-1$ ($w=3$). Stacked cohort windows span $-w$ to $+w$ years and are bounded by the firm's neighbouring events. Control firm-years come from never-event firms, matched by calendar year. Firm-clustered standard errors are in parentheses. Flow outcomes (Panels B--E) are missing in a firm's first observed year and when the prior year is not observed. Pre-event treated mean is the mean of the dependent variable for treated firms in event years $-w$ to $-1$. For each event, the first column adds $\ln(\text{Item 1 words})$ (log of the word count of the firm's Item 1) as a control (firm-years without an Item 1 text drop out) and the second column does not. $^{*}p<0.05$, $^{**}p<0.01$, $^{***}p<0.001$.
+\end{minipage}
+\end{table}
+\end{landscape}
